@@ -1,0 +1,32 @@
+{
+  "id": "taygetos-balcony",
+  "title": "Το Μπαλκόνι του Ταϋγέτου",
+  "title_latin": "To Balkoni tou Taygetou (The Balcony of Taygetus)",
+  "subtitle": "Όργανο συνδέσεως των απανταχού Γεωργιτσιάνων",
+  "publication_type": "community newspaper",
+  "place": "Γεωργίτσι, Λακωνία, Ελλάδα",
+  "language": "el",
+  "years_covered": "1977-1988",
+  "publisher_site": "https://taygetosbalcony.gr",
+  "archive_page": "https://taygetosbalcony.gr/2025/06/03/αρχείο-εφημερίδας/",
+  "license": "CC-BY-SA-4.0",
+  "attribution": "Christine K. Yannakaki",
+  "license_note": "The archive is published by the rights holder under CC BY-SA 4.0. Derived text in this repository carries the same licence and attribution.",
+  "scans": [
+    {
+      "filename": "archive-1977-1988.pdf",
+      "description": "Bound archive of most issues published 1977-1988",
+      "drive_file_id": "1YDDR2CQgvYyVpZ7b8htGWz0I0s6j2jzb",
+      "pages": 179,
+      "bytes": 212650165,
+      "sha256": "91a7ee3f2729785250c98c5dd4683d2a2d15a377b0059f92af4cc423de43ac67",
+      "scan_profile": "300 dpi bilevel (CCITT G4), no embedded text layer"
+    }
+  ],
+  "ocr": {
+    "provider": "mistral",
+    "model": "mistral-ocr-latest",
+    "granularity": "one API call per PDF page",
+    "corrected": false
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "chars": 8796,
+  "greek_ratio": 0.987,
+  "duplicate_ratio": 0.015,
+  "ok": true,
+  "image": "0035a.png",
+  "model": "mistral-ocr-latest"
+}

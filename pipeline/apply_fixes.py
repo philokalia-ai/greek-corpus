@@ -59,6 +59,8 @@ def main() -> None:
     ap.add_argument("source_dir", type=pathlib.Path)
     ap.add_argument("--confidence", default="high", choices=list(LEVELS))
     ap.add_argument("--text-dir", default="corrected")
+    ap.add_argument("--lexicon", type=pathlib.Path, default=None,
+                    help="Greek word list; a real word is never treated as an error")
     ap.add_argument("--dry-run", action="store_true")
     args = ap.parse_args()
 
@@ -69,8 +71,46 @@ def main() -> None:
 
     fixes: dict[str, str] = {}
     skipped_protected = 0
+    sources: collections.Counter = collections.Counter()
+
+    # Verdicts from the second reader and from re-reading the crop are evidence
+    # about the page, so they outrank anything inferred from the lexicon. Where
+    # either says the page reads as transcribed, the pair is removed from play.
+    settled_against: set[str] = set()
+    for name, column in (("arbitration.tsv", "verdict"), ("verified.tsv", "resolution")):
+        path = gaz / name
+        if not path.exists():
+            continue
+        with path.open(encoding="utf-8") as fh:
+            for row in csv.DictReader(fh, delimiter="\t"):
+                if row.get(column) == "candidate":
+                    if len(row["suspect"]) == len(row["candidate"]):
+                        fixes[row["suspect"]] = row["candidate"]
+                        sources[name] += 1
+                elif row.get(column) == "suspect":
+                    settled_against.add(row["suspect"])
+    for token in settled_against:
+        fixes.pop(token, None)
+
+    # A word that exists in Greek is never called an OCR error, whatever backs
+    # the alternative. The second reader saying it saw ΤΟΝΟΙ where this text has
+    # ΠΟΝΟΙ is evidence that Tesseract misread the page, not that the page is
+    # wrong; both are ordinary words and only the crop can separate them.
+    lexicon: set[str] = set()
+    if args.lexicon and args.lexicon.exists():
+        lines = args.lexicon.read_text(encoding="utf-8", errors="ignore").splitlines()
+        body = lines[1:] if lines and lines[0].strip().isdigit() else lines
+        lexicon = {fold(l.split("/")[0].strip()) for l in body if l.split("/")[0].strip()}
+        real_words = [s for s in fixes if s in lexicon]
+        for token in real_words:
+            fixes.pop(token)
+        if real_words:
+            print(f"{len(real_words)} proposals dropped: the suspect is a real Greek word")
+
     with (gaz / "confusion_pairs.tsv").open(encoding="utf-8") as fh:
         for row in csv.DictReader(fh, delimiter="\t"):
+            if row["suspect"] in settled_against:
+                continue
             # A confirmed name vouches for a spelling the lexicon cannot, which is
             # the whole point of the gazetteer: ΛΟΥΤΡΑΚΙΟΥ is a real word here
             # even though no general dictionary declines toponyms.

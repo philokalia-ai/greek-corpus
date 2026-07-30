@@ -1,0 +1,41 @@
+suspect	candidate	pages	second_saw_suspect	second_saw_candidate	verdict	prior_confidence	page_used	image_read	resolution
+ΧΩΡΙΣ	ΧΩΡΙΟ	0002a,0003b,0004a,0005a,0006b,0007a,0007b,0009a,0010b,0017b,0018b,0019a,0020a,0021a,0022a,0024a,0024b,0026b,0028a,0029b,0030a,0030b,0032b,0033a,0036a,0038b,0042a,0042b,0044a,0044b,0045a,0046b,0047b,0048a,0050b,0051a,0052b,0053a,0054b,0058a,0058b,0059a,0066a,0070a,0075a,0078a,0079a,0081a,0082a,0084a,0087a,0088a,0089a,0090a,0091a,0092a,0094a,0101a,0102a,0103a,0104a,0105a,0107a,0108a,0109a,0112a,0114a,0116a,0117a,0120a,0124a,0127a,0131a,0136a,0138a,0139a,0140a,0142a,0146a,0147a,0149a,0150a,0164a,0165a,0166a,0168a,0170a,0173a,0176a,0177a	97	227	both-seen	low	0002a		unreadable
+ΕΤΟΥΣ	ΣΤΟΥΣ	0013a,0020a,0026b,0027a,0028b,0031b,0032b,0033a,0035b,0043b,0044b,0053b,0058a,0061a,0064a,0068a,0069a,0073a,0075a,0084a,0085a,0087a,0097a,0099a,0100a,0134a,0149a,0158a	6	51	both-seen	low	0013a		unreadable
+ΕΙΜΑΙ	ΕΙΝΑΙ	0003a,0010b,0016b,0023a,0026b,0027a,0044a,0048a,0054a,0068a,0078a,0079a,0104a,0110a,0119a,0122a,0144a,0166a,0168a,0170a	3	31	both-seen	low	0003a	ΕΙΝΑΙ	candidate
+ΧΙΟΝΙΑ	ΧΡΟΝΙΑ	0004b,0022b,0023a,0024b,0031a,0032b,0038b,0042a,0044a,0070a,0139a,0170a	18	19	both-seen	low	0004b	ΧΡΟΝΙΑ	candidate
+ΜΑΤΙΑ	ΜΑΡΙΑ	0004b,0005a,0008a,0014a,0022a,0024b,0026a,0027b,0044a,0064a,0069a,0070a,0074a,0075a,0079a,0081a,0082a,0094a,0101a,0102a,0103a,0105a,0106a,0107a,0121a,0131a,0140a,0141a,0142a,0145a,0149a,0165a,0175a	21	17	both-seen	low	0004b	Μ	third-reading
+ΜΠΟΡΟ	ΜΠΟΡΕ	0020b,0083a,0106a,0108a,0118a,0126a,0128a,0130a	10	8	both-seen	low	0020b	ΜΠΟΡΟ	suspect
+ΚΑΠΟΙΕΣ	ΚΑΠΟΙΟΣ	0030a,0044a,0045a,0046a,0089a,0091a,0097a,0099a,0105a,0106a,0107a	4	5	both-seen	low	0030a	ΚΑΠΟΙΟΣ	candidate
+ΓΙΑΤΡΕ	ΓΙΑΤΡΟ	0024b,0065a,0067a,0121a,0174a	3	4	both-seen	low	0024b	ΓΙΑΤΡΟ	candidate
+ΟΠΟΙΕΣ	ΟΠΟΙΟΣ	0003a,0003b,0006a,0009a,0027a,0027b,0032b,0036b,0045b,0048a,0051a,0058b,0076a,0094a,0097a,0099a,0100a,0119a,0131a,0149a,0166a,0168a,0170a	12	4	both-seen	low	0003a	ΠΟΙΟΣ	third-reading
+ΚΟΥΜΠΑΡΟ	ΚΟΥΜΠΑΡΕ	0021a,0119a,0177a	1	4	both-seen	low	0021a	ΚΟΥΜΠΑΡΟ	suspect
+ΚΟΙΝΟΤΗΤΟΣ	ΚΟΙΝΟΤΗΤΕΣ	0003b,0007b,0069a,0082a,0108a,0122a,0124a,0134a,0144a,0169a	14	4	both-seen	low	0003b	ΚΟΙΝΟΤΗΤΕΣ	candidate
+ΑΥΤΕΣ	ΑΥΤΟΣ	0003a,0005b,0007b,0013b,0019a,0021a,0026a,0027a,0028a,0030a,0031b,0032a,0035a,0036b,0039a,0044a,0044b,0045a,0049b,0050b,0051a,0055b,0058b,0076a,0081a,0097a,0099a,0101a,0103a,0105a,0107a,0120a,0121a,0122a,0136a,0161a,0165a,0168a	7	4	both-seen	low	0003a		unreadable
+ΚΑΜΕΙ	ΚΑΝΕΙ	0045a,0082a,0173a	1	3	both-seen	low	0045a		unreadable
+ΠΡΟΕΔΡΕ	ΠΡΟΕΔΡΟ	0116a,0138a,0168a,0171a	3	3	both-seen	low	0116a	ΠΡΟΕΔΡΟ	candidate
+ΠΕΙΡΑ	ΠΕΤΡΑ	0003b,0005b,0012b,0013b,0017b,0044a,0052b,0095a,0106a,0108a,0110a,0125a,0169a	7	3	both-seen	low	0003b		unreadable
+ΧΑΡΟΣ	ΧΑΡΕΣ	0023a,0024b,0025b,0026b,0044a,0081a,0086a,0140a,0142a	12	3	both-seen	low	0023a		unreadable
+ΓΟΝΟΣ	ΓΕΝΟΣ	0101a,0103a	2	2	both-seen	low	0101a	ΓΕΝΟΣ	candidate
+ΑΡΧΙΖΕ	ΑΡΧΙΣΕ	0032b,0039a,0057b,0065a,0067a,0102a	2	2	both-seen	low	0032b	ΡΧΙΖΕ	third-reading
+ΚΑΝΟΝΑ	ΚΑΝΕΝΑ	0027a,0079a,0088a,0101a,0103a	2	2	both-seen	low	0027a	ΠΑΡΟΠΑΚ	third-reading
+ΠΟΛΙΤΙΣΤΙΚΕΣ	ΠΟΛΙΤΙΣΤΙΚΟΣ	0009b,0019b,0028b,0029b,0030b,0095a	3	2	both-seen	low	0009b		unreadable
+ΕΣΩΤΕΡΙΚΟ	ΕΞΩΤΕΡΙΚΟ	0003a,0004b,0007a,0007b,0008a,0020a,0024a,0031a,0045a,0050b,0056b,0062a,0073a,0094a,0147a,0177a	1	2	both-seen	low	0003a	ΕΣΩΤΕΡΙΚΟ	suspect
+ΑΓΑΠΗΤΟ	ΑΓΑΠΗΤΕ	0006a,0013a,0014b,0022a,0037a,0039a,0078a,0140a,0142a,0151a,0160a,0161a	3	2	both-seen	low	0006a	ΓΑΠΗΤΟ	third-reading
+ΛΕΓΟΥ	ΛΟΓΟΥ	0024a,0091a,0095a,0125a	2	2	both-seen	low	0024a	ΛΟΓΟΣ	third-reading
+ΚΑΛΕΣ	ΚΑΛΟΣ	0008b,0025a,0030a,0031b,0042a,0044a,0049b,0052a,0060a,0070a,0119a,0153a,0166a,0179a	10	2	both-seen	low	0008b	ΚΑΛΛΙΟΣ	third-reading
+ΕΣΩΤΕΡΙΚΟΥ	ΕΞΩΤΕΡΙΚΟΥ	0006b,0019b,0022b,0027a,0030b,0033a,0035a,0045a,0050b,0058a,0062a,0073a,0077a,0104a,0116a,0124a,0131a,0168a	7	2	both-seen	low	0006b	ΕΠΙΧΕΙΡΗΣΕΙΣ	third-reading
+ΡΜΟΔΙΕΣ	ΡΜΟΔΙΟΣ	0025a,0106a	1	2	both-seen	low	0025a	ΡΜΟΔΙΕΣ	suspect
+ΠΛΑΤΑΝΕΣ	ΠΛΑΤΑΝΟΣ	0016b,0128a	1	1	both-seen	medium	0016b	ΠΛΑΤΑΝΟΣ	candidate
+ΜΑΓΙΑ	ΜΑΡΙΑ	0046a,0151a,0173a	1	1	both-seen	low	0046a	ΠΑΓΙΑ	third-reading
+ΠΗΡΕΣ	ΠΗΓΕΣ	0042b	1	1	both-seen	low	0042b	ΨΥΞΕΣ	third-reading
+ΧΑΝΕΙ	ΚΑΝΕΙ	0021a,0024b,0146a	3	1	both-seen	low	0021a	ΧΑΝΕΙ	suspect
+ΕΧΑΝΑΝ	ΕΚΑΝΑΝ	0041b	1	1	both-seen	low	0041b	ΧΑΙΝΙΑ	third-reading
+ΔΑΣΚΑΛΕΣ	ΔΑΣΚΑΛΟΣ	0014b,0015a	1	1	both-seen	low	0014b	ΣΥΓΧΡΟΝΗΣ	third-reading
+ΧΑΝΟΥΜΕ	ΚΑΝΟΥΜΕ	0024b,0070a	1	1	both-seen	low	0024b		unreadable
+ΦΥΤΕΥΕΙ	ΦΥΤΕΨΕΙ	0137a	1	1	both-seen	low	0137a	ΦΥΤΕΨΕΙ	candidate
+ΣΠΟΥΔΑΖΕ	ΣΠΟΥΔΑΣΕ	0018a	1	1	both-seen	low	0018a	ΣΠΟΥΔΑΣΕ	candidate
+ΑΛΛΟΣ	ΑΛΛΕΣ	0036b,0044b,0048a,0062a,0068a,0076a,0116a,0173a	2	1	both-seen	low	0036b	ΑΛΛΟΣ	suspect
+ΠΛΗΓΗ	ΠΛΗΡΗ	0020a,0025a,0081a	4	1	both-seen	low	0020a	ΠΛΗΓΗ	suspect
+ΛΟΥΚΑ	ΔΟΥΚΑ	0004b,0069a,0137a,0154a,0159a	3	1	both-seen	low	0004b	ΛΑΠΑ	third-reading
+ΔΗΜΟΣΙΟΣ	ΔΗΜΟΣΙΕΣ	0084a,0148a,0152a	2	1	both-seen	low	0084a		not-located
+ΓΝΩΣΤΕΣ	ΓΝΩΣΤΟΣ	0045b,0055b,0087a	2	1	both-seen	low	0045b		unreadable

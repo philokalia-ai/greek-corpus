@@ -51,6 +51,38 @@ structural signal the scans carry. Expect some articles to be split at a
 subheading, and some short items to be merged into the article above them.
 Articles that continue on another page are flagged, not stitched.
 
+### Letters read as other letters
+
+The failure that survives everything above is a Greek letter misread as another
+Greek letter: `ΑΟΥΤΡΑΚΙΟΥ` for `ΛΟΥΤΡΑΚΙΟΥ`, `ΔΑΚΩΝΙΑΣ` for `ΛΑΚΩΝΙΑΣ`. Nothing
+about the text looks wrong — it is all Greek, the length is unchanged, no digits
+are involved — so no quality metric catches it.
+
+A general Greek dictionary is the wrong instrument here, and measurably so: a
+third of this paper's distinct words sit outside one, because they are surnames,
+toponyms, abbreviations and 1970s orthography. Correcting against it turns
+`ΤΟΥΡΝΑΣ` into `ΓΟΥΡΝΑΣ`, `ΑΡΙΘ.` into `ΑΡΙΟ`, and the archaic accusative
+`ΠΡΟΕΔΡΟΝ` into `ΠΡΟΕΔΡΟΥ`, modernising the text — the one thing a transcription
+must not do.
+
+What works is that the paper repeats its own vocabulary. `build_gazetteer.py`
+lists pairs of spellings one confusable letter apart, excluding same-sounding
+pairs (period orthography), case endings (period grammar) and abbreviations.
+A pair is only actionable when the rare side is **not** a word and the common
+side is: Greek is full of real words one letter apart — `χωρίς`/`χωριό`,
+`είμαι`/`είναι`, and every `-ουμε`/`-ουνε` verb ending, which differ by exactly
+the Μ/Ν confusion. Ranking those by frequency rewrites grammatical person.
+
+`gazetteer/names.txt` holds names confirmed by a human. It matters more than its
+size suggests: a general lexicon declines no toponyms, so sixteen confirmed
+entries were enough to repair the paper's own masthead and its publisher's name.
+
+`gazetteer/observed_confusions.txt` is the confusion matrix measured from applied
+fixes rather than assumed. Ε↔Ο dominates, then Δ→Λ, Σ→Ξ and Τ→Π.
+
+Fixes are applied in place, and `gazetteer/applied.tsv` records every one, so
+each is checkable against immutable `ocr/` and against the scan.
+
 ## Layout
 
 ```

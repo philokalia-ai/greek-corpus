@@ -1,0 +1,19 @@
+# One confirmed name or place per line, folded uppercase, no accents.
+# Inflected forms each get their own line: ΛΟΥΤΡΑΚΙ and ΛΟΥΤΡΑΚΙΟΥ.
+# Anything listed here is treated as correct and never 'corrected'.
+ΓΕΩΡΓΙΤΣΙ
+ΓΕΩΡΓΙΤΣΙΟΥ
+ΓΕΩΡΓΙΤΣΙΑΝΩΝ
+ΤΑΥΓΕΤΟΥ
+ΤΑΫΓΕΤΟΥ
+ΛΑΚΩΝΙΑ
+ΛΑΚΩΝΙΑΣ
+ΛΑΚΕΔΑΙΜΟΝΙΩΝ
+ΣΠΑΡΤΗ
+ΣΠΑΡΤΗΣ
+ΚΑΣΤΟΡΙ
+ΚΑΣΤΟΡΙΟΥ
+ΛΟΥΤΡΑΚΙ
+ΛΟΥΤΡΑΚΙΟΥ
+ΜΠΑΛΚΟΝΙ
+ΓΙΑΝΝΑΚΑΚΗΣ

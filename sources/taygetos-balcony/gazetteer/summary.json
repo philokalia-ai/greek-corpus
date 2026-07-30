@@ -1,0 +1,13 @@
+{
+  "text_layer": "corrected",
+  "tokens": 163620,
+  "distinct": 38588,
+  "in_lexicon": 26008,
+  "outside_lexicon": 12580,
+  "confusion_pairs": {
+    "one-known": 459,
+    "neither-known": 353,
+    "both-known": 883
+  },
+  "name_candidates": 1322
+}

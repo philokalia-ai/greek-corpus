@@ -117,6 +117,7 @@ def main() -> None:
             slug = slugify(article["title"], f"arthro-{n}")
             name = f"{label}-{n:02d}-{slug}"
             flagged = article["page"] in issue.get("flagged_pages", [])
+            origin = issue.get("page_text_source", {}).get(article["page"], "raw")
             continued = bool(CONTINUATION.search(strip_accents(article["title"]).lower()))
 
             record = {
@@ -129,6 +130,7 @@ def main() -> None:
                 "page_image": article["page"],
                 "chars": len(article["body"]),
                 "ocr_flagged": flagged,
+                "text_source": origin,
                 "possible_continuation": continued,
             }
             catalogue.append(record)
@@ -146,7 +148,8 @@ def main() -> None:
                 f"license: {manifest['license']}",
                 f"attribution: {yaml_escape(manifest['attribution'])}",
                 f"ocr_model: {manifest['ocr']['model']}",
-                "ocr_corrected: false",
+                f"text_source: {origin}",
+                f"ocr_corrected: {'true' if origin == 'corrected' else 'false'}",
                 f"ocr_flagged: {'true' if flagged else 'false'}",
                 f"possible_continuation: {'true' if continued else 'false'}",
                 "---",

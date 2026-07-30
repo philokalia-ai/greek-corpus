@@ -1,5 +1,10 @@
 [
   {
+    "page_text_source": {
+      "0001a": "raw",
+      "0002a": "corrected",
+      "0003a": "corrected"
+    },
     "sequence": 1,
     "front_page": "0001a",
     "pages": [
@@ -18,6 +23,13 @@
     "file": "seq001.md"
   },
   {
+    "page_text_source": {
+      "0003b": "corrected",
+      "0004a": "corrected",
+      "0004b": "corrected",
+      "0005a": "corrected",
+      "0003a": "corrected"
+    },
     "sequence": 2,
     "front_page": "0003b",
     "pages": [
@@ -33,11 +45,18 @@
     "volume_year": 7,
     "month": 10,
     "year": null,
-    "date": "1983-09-01",
+    "date": "1983-03-01",
     "date_confidence": "interpolated",
     "file": "037.md"
   },
   {
+    "page_text_source": {
+      "0005b": "corrected",
+      "0006a": "corrected",
+      "0006b": "corrected",
+      "0007a": "corrected",
+      "0005a": "corrected"
+    },
     "sequence": 3,
     "front_page": "0005b",
     "pages": [
@@ -52,12 +71,19 @@
     "issue_number": 34,
     "volume_year": 6,
     "month": 10,
-    "year": null,
-    "date": "1983-02-01",
-    "date_confidence": "interpolated",
+    "year": 1982,
+    "date": "1982-10-01",
+    "date_confidence": "month",
     "file": "034.md"
   },
   {
+    "page_text_source": {
+      "0007b": "corrected",
+      "0008a": "corrected",
+      "0008b": "corrected",
+      "0009a": "corrected",
+      "0007a": "corrected"
+    },
     "sequence": 4,
     "front_page": "0007b",
     "pages": [
@@ -70,7 +96,7 @@
     "page_count": 5,
     "flagged_pages": [],
     "issue_number": 32,
-    "volume_year": null,
+    "volume_year": 6,
     "month": 8,
     "year": 1982,
     "date": "1982-08-01",
@@ -78,6 +104,13 @@
     "file": "032.md"
   },
   {
+    "page_text_source": {
+      "0009b": "corrected",
+      "0010a": "raw",
+      "0010b": "raw",
+      "0011a": "raw",
+      "0009a": "corrected"
+    },
     "sequence": 5,
     "front_page": "0009b",
     "pages": [
@@ -85,24 +118,54 @@
       "0010a",
       "0010b",
       "0011a",
-      "0011b",
-      "0012a",
-      "0012b",
-      "0013a",
       "0009a"
     ],
-    "page_count": 9,
+    "page_count": 5,
     "flagged_pages": [],
     "issue_number": 31,
     "volume_year": 6,
-    "month": 6,
+    "month": 7,
     "year": 1982,
-    "date": "1982-06-01",
+    "date": "1982-07-01",
     "date_confidence": "month",
     "file": "031.md"
   },
   {
+    "page_text_source": {
+      "0011b": "raw",
+      "0012a": "raw",
+      "0012b": "corrected",
+      "0013a": "corrected",
+      "0011a": "raw"
+    },
     "sequence": 6,
+    "front_page": "0011b",
+    "pages": [
+      "0011b",
+      "0012a",
+      "0012b",
+      "0013a",
+      "0011a"
+    ],
+    "page_count": 5,
+    "flagged_pages": [],
+    "issue_number": 38,
+    "volume_year": 7,
+    "month": 5,
+    "year": 1983,
+    "date": "1983-05-01",
+    "date_confidence": "month",
+    "file": "038.md"
+  },
+  {
+    "page_text_source": {
+      "0013b": "corrected",
+      "0014a": "corrected",
+      "0014b": "corrected",
+      "0015a": "corrected",
+      "0013a": "corrected"
+    },
+    "sequence": 7,
     "front_page": "0013b",
     "pages": [
       "0013b",
@@ -113,42 +176,79 @@
     ],
     "page_count": 5,
     "flagged_pages": [],
-    "issue_number": 29,
+    "issue_number": 39,
     "volume_year": 7,
     "month": 2,
     "year": 1984,
     "date": "1984-02-01",
-    "date_confidence": "conflicting",
-    "file": "029.md"
+    "date_confidence": "month",
+    "file": "039.md"
   },
   {
-    "sequence": 7,
+    "page_text_source": {
+      "0015b": "corrected",
+      "0016a": "raw",
+      "0015a": "corrected"
+    },
+    "sequence": 8,
     "front_page": "0015b",
     "pages": [
       "0015b",
       "0016a",
+      "0015a"
+    ],
+    "page_count": 3,
+    "flagged_pages": [],
+    "issue_number": 40,
+    "volume_year": 8,
+    "month": 3,
+    "year": 1984,
+    "date": "1984-03-01",
+    "date_confidence": "month",
+    "file": "040.md"
+  },
+  {
+    "page_text_source": {
+      "0016b": "corrected",
+      "0017a": "corrected",
+      "0017b": "corrected",
+      "0018a": "corrected",
+      "0018b": "corrected",
+      "0019a": "corrected",
+      "0016a": "raw"
+    },
+    "sequence": 9,
+    "front_page": "0016b",
+    "pages": [
       "0016b",
       "0017a",
       "0017b",
       "0018a",
       "0018b",
       "0019a",
-      "0015a"
+      "0016a"
     ],
-    "page_count": 9,
+    "page_count": 7,
     "flagged_pages": [
       "0018b"
     ],
-    "issue_number": 40,
-    "volume_year": 8,
-    "month": 3,
-    "year": null,
-    "date": "1984-04-01",
-    "date_confidence": "interpolated",
-    "file": "040.md"
+    "issue_number": null,
+    "volume_year": null,
+    "month": 5,
+    "year": 1984,
+    "date": "1984-05-01",
+    "date_confidence": "month",
+    "file": "seq009.md"
   },
   {
-    "sequence": 8,
+    "page_text_source": {
+      "0019b": "corrected",
+      "0020a": "corrected",
+      "0020b": "corrected",
+      "0021a": "corrected",
+      "0019a": "corrected"
+    },
+    "sequence": 10,
     "front_page": "0019b",
     "pages": [
       "0019b",
@@ -160,15 +260,25 @@
     "page_count": 5,
     "flagged_pages": [],
     "issue_number": 42,
-    "volume_year": null,
-    "month": 8,
+    "volume_year": 8,
+    "month": 5,
     "year": 1984,
-    "date": "1984-08-01",
+    "date": "1984-05-01",
     "date_confidence": "month",
     "file": "042.md"
   },
   {
-    "sequence": 9,
+    "page_text_source": {
+      "0021b": "raw",
+      "0022a": "corrected",
+      "0022b": "corrected",
+      "0023a": "corrected",
+      "0023b": "corrected",
+      "0024a": "corrected",
+      "0024b": "corrected",
+      "0021a": "corrected"
+    },
+    "sequence": 11,
     "front_page": "0021b",
     "pages": [
       "0021b",
@@ -178,14 +288,9 @@
       "0023b",
       "0024a",
       "0024b",
-      "0025a",
-      "0025b",
-      "0026a",
-      "0026b",
-      "0027a",
       "0021a"
     ],
-    "page_count": 13,
+    "page_count": 8,
     "flagged_pages": [],
     "issue_number": 44,
     "volume_year": 5,
@@ -196,7 +301,60 @@
     "file": "044.md"
   },
   {
-    "sequence": 10,
+    "page_text_source": {
+      "0025a": "corrected"
+    },
+    "sequence": 12,
+    "front_page": "0025a",
+    "pages": [
+      "0025a"
+    ],
+    "page_count": 1,
+    "flagged_pages": [],
+    "issue_number": null,
+    "volume_year": null,
+    "month": 7,
+    "year": 1985,
+    "date": "1985-07-01",
+    "date_confidence": "month",
+    "file": "seq012.md"
+  },
+  {
+    "page_text_source": {
+      "0025b": "corrected",
+      "0026a": "corrected",
+      "0026b": "corrected",
+      "0027a": "corrected",
+      "0025a": "corrected"
+    },
+    "sequence": 13,
+    "front_page": "0025b",
+    "pages": [
+      "0025b",
+      "0026a",
+      "0026b",
+      "0027a",
+      "0025a"
+    ],
+    "page_count": 5,
+    "flagged_pages": [],
+    "issue_number": null,
+    "volume_year": 9,
+    "month": 5,
+    "year": 1985,
+    "date": "1985-05-01",
+    "date_confidence": "month",
+    "file": "seq013.md"
+  },
+  {
+    "page_text_source": {
+      "0027b": "corrected",
+      "0028a": "corrected",
+      "0028b": "corrected",
+      "0029a": "raw",
+      "0027a": "corrected"
+    },
+    "sequence": 14,
     "front_page": "0027b",
     "pages": [
       "0027b",
@@ -215,50 +373,164 @@
     "year": 1985,
     "date": "1985-06-01",
     "date_confidence": "month",
-    "file": "seq010.md"
+    "file": "seq014.md"
   },
   {
-    "sequence": 11,
+    "page_text_source": {
+      "0029b": "corrected",
+      "0030a": "corrected",
+      "0030b": "corrected",
+      "0031a": "corrected",
+      "0029a": "raw"
+    },
+    "sequence": 15,
     "front_page": "0029b",
     "pages": [
       "0029b",
       "0030a",
       "0030b",
       "0031a",
+      "0029a"
+    ],
+    "page_count": 5,
+    "flagged_pages": [],
+    "issue_number": null,
+    "volume_year": 9,
+    "month": 9,
+    "year": 1985,
+    "date": "1985-09-01",
+    "date_confidence": "month",
+    "file": "seq015.md"
+  },
+  {
+    "page_text_source": {
+      "0031b": "corrected",
+      "0032a": "corrected",
+      "0032b": "corrected",
+      "0033a": "corrected",
+      "0031a": "corrected"
+    },
+    "sequence": 16,
+    "front_page": "0031b",
+    "pages": [
       "0031b",
       "0032a",
       "0032b",
       "0033a",
+      "0031a"
+    ],
+    "page_count": 5,
+    "flagged_pages": [],
+    "issue_number": null,
+    "volume_year": 9,
+    "month": null,
+    "year": 1985,
+    "date": null,
+    "date_confidence": "unknown",
+    "file": "seq016.md"
+  },
+  {
+    "page_text_source": {
+      "0033b": "raw",
+      "0034a": "corrected",
+      "0034b": "raw",
+      "0035a": "raw",
+      "0033a": "corrected"
+    },
+    "sequence": 17,
+    "front_page": "0033b",
+    "pages": [
       "0033b",
       "0034a",
       "0034b",
       "0035a",
+      "0033a"
+    ],
+    "page_count": 5,
+    "flagged_pages": [],
+    "issue_number": null,
+    "volume_year": 10,
+    "month": 4,
+    "year": 1986,
+    "date": "1986-04-01",
+    "date_confidence": "month",
+    "file": "seq017.md"
+  },
+  {
+    "page_text_source": {
+      "0035b": "corrected",
+      "0036a": "corrected",
+      "0036b": "corrected",
+      "0037a": "corrected",
+      "0037b": "raw",
+      "0038a": "corrected",
+      "0035a": "raw"
+    },
+    "sequence": 18,
+    "front_page": "0035b",
+    "pages": [
       "0035b",
       "0036a",
       "0036b",
       "0037a",
       "0037b",
       "0038a",
+      "0035a"
+    ],
+    "page_count": 7,
+    "flagged_pages": [],
+    "issue_number": null,
+    "volume_year": 10,
+    "month": 7,
+    "year": 1986,
+    "date": "1986-07-01",
+    "date_confidence": "month",
+    "file": "seq018.md"
+  },
+  {
+    "page_text_source": {
+      "0038b": "corrected",
+      "0039a": "corrected",
+      "0039b": "corrected",
+      "0040a": "raw",
+      "0040b": "raw",
+      "0041a": "raw",
+      "0038a": "corrected"
+    },
+    "sequence": 19,
+    "front_page": "0038b",
+    "pages": [
       "0038b",
       "0039a",
       "0039b",
       "0040a",
       "0040b",
       "0041a",
-      "0029a"
+      "0038a"
     ],
-    "page_count": 25,
+    "page_count": 7,
     "flagged_pages": [],
     "issue_number": null,
-    "volume_year": 5,
-    "month": null,
-    "year": 1985,
+    "volume_year": null,
+    "month": 5,
+    "year": null,
     "date": null,
     "date_confidence": "unknown",
-    "file": "seq011.md"
+    "file": "seq019.md"
   },
   {
-    "sequence": 12,
+    "page_text_source": {
+      "0041b": "corrected",
+      "0042a": "corrected",
+      "0042b": "corrected",
+      "0043a": "corrected",
+      "0043b": "corrected",
+      "0044a": "corrected",
+      "0044b": "corrected",
+      "0045a": "corrected",
+      "0041a": "raw"
+    },
+    "sequence": 20,
     "front_page": "0041b",
     "pages": [
       "0041b",
@@ -282,7 +554,14 @@
     "file": "057.md"
   },
   {
-    "sequence": 13,
+    "page_text_source": {
+      "0045b": "corrected",
+      "0046a": "corrected",
+      "0046b": "corrected",
+      "0047a": "raw",
+      "0045a": "corrected"
+    },
+    "sequence": 21,
     "front_page": "0045b",
     "pages": [
       "0045b",
@@ -293,16 +572,23 @@
     ],
     "page_count": 5,
     "flagged_pages": [],
-    "issue_number": null,
+    "issue_number": 58,
     "volume_year": null,
     "month": 1,
     "year": null,
     "date": null,
     "date_confidence": "unknown",
-    "file": "seq013.md"
+    "file": "058.md"
   },
   {
-    "sequence": 14,
+    "page_text_source": {
+      "0047b": "corrected",
+      "0048a": "corrected",
+      "0048b": "raw",
+      "0049a": "corrected",
+      "0047a": "raw"
+    },
+    "sequence": 22,
     "front_page": "0047b",
     "pages": [
       "0047b",
@@ -313,16 +599,23 @@
     ],
     "page_count": 5,
     "flagged_pages": [],
-    "issue_number": 6,
+    "issue_number": 60,
     "volume_year": null,
     "month": null,
     "year": null,
-    "date": "1977-12-01",
-    "date_confidence": "interpolated",
-    "file": "006.md"
+    "date": null,
+    "date_confidence": "unknown",
+    "file": "060.md"
   },
   {
-    "sequence": 15,
+    "page_text_source": {
+      "0049b": "corrected",
+      "0050a": "raw",
+      "0050b": "corrected",
+      "0051a": "corrected",
+      "0049a": "corrected"
+    },
+    "sequence": 23,
     "front_page": "0049b",
     "pages": [
       "0049b",
@@ -342,7 +635,12 @@
     "file": "061.md"
   },
   {
-    "sequence": 16,
+    "page_text_source": {
+      "0051b": "raw",
+      "0052a": "corrected",
+      "0051a": "corrected"
+    },
+    "sequence": 24,
     "front_page": "0051b",
     "pages": [
       "0051b",
@@ -351,16 +649,23 @@
     ],
     "page_count": 3,
     "flagged_pages": [],
-    "issue_number": null,
+    "issue_number": 62,
     "volume_year": null,
     "month": 5,
     "year": null,
     "date": null,
     "date_confidence": "unknown",
-    "file": "seq016.md"
+    "file": "062.md"
   },
   {
-    "sequence": 17,
+    "page_text_source": {
+      "0052b": "corrected",
+      "0053a": "raw",
+      "0053b": "corrected",
+      "0054a": "corrected",
+      "0052a": "corrected"
+    },
+    "sequence": 25,
     "front_page": "0052b",
     "pages": [
       "0052b",
@@ -380,20 +685,23 @@
     "file": "063.md"
   },
   {
-    "sequence": 18,
+    "page_text_source": {
+      "0054b": "corrected",
+      "0055a": "corrected",
+      "0055b": "corrected",
+      "0056a": "corrected",
+      "0054a": "corrected"
+    },
+    "sequence": 26,
     "front_page": "0054b",
     "pages": [
       "0054b",
       "0055a",
       "0055b",
       "0056a",
-      "0056b",
-      "0057a",
-      "0057b",
-      "0058a",
       "0054a"
     ],
-    "page_count": 9,
+    "page_count": 5,
     "flagged_pages": [],
     "issue_number": null,
     "volume_year": 12,
@@ -401,10 +709,43 @@
     "year": null,
     "date": null,
     "date_confidence": "unknown",
-    "file": "seq018.md"
+    "file": "seq026.md"
   },
   {
-    "sequence": 19,
+    "page_text_source": {
+      "0056b": "corrected",
+      "0057a": "raw",
+      "0057b": "corrected",
+      "0058a": "corrected",
+      "0056a": "corrected"
+    },
+    "sequence": 27,
+    "front_page": "0056b",
+    "pages": [
+      "0056b",
+      "0057a",
+      "0057b",
+      "0058a",
+      "0056a"
+    ],
+    "page_count": 5,
+    "flagged_pages": [],
+    "issue_number": null,
+    "volume_year": 12,
+    "month": 5,
+    "year": null,
+    "date": null,
+    "date_confidence": "unknown",
+    "file": "seq027.md"
+  },
+  {
+    "page_text_source": {
+      "0058b": "corrected",
+      "0059a": "corrected",
+      "0059b": "raw",
+      "0058a": "corrected"
+    },
+    "sequence": 28,
     "front_page": "0058b",
     "pages": [
       "0058b",
@@ -416,22 +757,22 @@
     "flagged_pages": [],
     "issue_number": null,
     "volume_year": 12,
-    "month": null,
+    "month": 5,
     "year": null,
     "date": null,
     "date_confidence": "unknown",
-    "file": "seq019.md"
+    "file": "seq028.md"
   },
   {
-    "sequence": 20,
+    "page_text_source": {
+      "0060a": "corrected"
+    },
+    "sequence": 29,
     "front_page": "0060a",
     "pages": [
-      "0060a",
-      "0061a",
-      "0062a",
-      "0063a"
+      "0060a"
     ],
-    "page_count": 4,
+    "page_count": 1,
     "flagged_pages": [],
     "issue_number": 23,
     "volume_year": 4,
@@ -442,7 +783,70 @@
     "file": "023.md"
   },
   {
-    "sequence": 21,
+    "page_text_source": {
+      "0061a": "corrected"
+    },
+    "sequence": 30,
+    "front_page": "0061a",
+    "pages": [
+      "0061a"
+    ],
+    "page_count": 1,
+    "flagged_pages": [],
+    "issue_number": null,
+    "volume_year": null,
+    "month": 9,
+    "year": null,
+    "date": null,
+    "date_confidence": "unknown",
+    "file": "seq030.md"
+  },
+  {
+    "page_text_source": {
+      "0062a": "corrected"
+    },
+    "sequence": 31,
+    "front_page": "0062a",
+    "pages": [
+      "0062a"
+    ],
+    "page_count": 1,
+    "flagged_pages": [],
+    "issue_number": null,
+    "volume_year": null,
+    "month": 5,
+    "year": null,
+    "date": null,
+    "date_confidence": "unknown",
+    "file": "seq031.md"
+  },
+  {
+    "page_text_source": {
+      "0063a": "corrected"
+    },
+    "sequence": 32,
+    "front_page": "0063a",
+    "pages": [
+      "0063a"
+    ],
+    "page_count": 1,
+    "flagged_pages": [],
+    "issue_number": null,
+    "volume_year": null,
+    "month": 9,
+    "year": null,
+    "date": null,
+    "date_confidence": "unknown",
+    "file": "seq032.md"
+  },
+  {
+    "page_text_source": {
+      "0064a": "corrected",
+      "0065a": "corrected",
+      "0066a": "corrected",
+      "0067a": "corrected"
+    },
+    "sequence": 33,
     "front_page": "0064a",
     "pages": [
       "0064a",
@@ -461,45 +865,46 @@
     "file": "024.md"
   },
   {
-    "sequence": 22,
+    "page_text_source": {
+      "0068a": "corrected",
+      "0069a": "corrected",
+      "0070a": "corrected",
+      "0071a": "corrected",
+      "0072a": "corrected",
+      "0073a": "corrected",
+      "0074a": "corrected",
+      "0075a": "corrected"
+    },
+    "sequence": 34,
     "front_page": "0068a",
     "pages": [
       "0068a",
       "0069a",
       "0070a",
-      "0071a"
-    ],
-    "page_count": 4,
-    "flagged_pages": [],
-    "issue_number": null,
-    "volume_year": 5,
-    "month": 2,
-    "year": 1981,
-    "date": "1981-02-01",
-    "date_confidence": "month",
-    "file": "seq022.md"
-  },
-  {
-    "sequence": 23,
-    "front_page": "0072a",
-    "pages": [
+      "0071a",
       "0072a",
       "0073a",
       "0074a",
       "0075a"
     ],
-    "page_count": 4,
+    "page_count": 8,
     "flagged_pages": [],
-    "issue_number": 26,
+    "issue_number": 25,
     "volume_year": 5,
-    "month": 4,
+    "month": 2,
     "year": 1981,
-    "date": "1981-04-01",
+    "date": "1981-02-01",
     "date_confidence": "month",
-    "file": "026.md"
+    "file": "025.md"
   },
   {
-    "sequence": 24,
+    "page_text_source": {
+      "0076a": "corrected",
+      "0077a": "corrected",
+      "0078a": "corrected",
+      "0079a": "corrected"
+    },
+    "sequence": 35,
     "front_page": "0076a",
     "pages": [
       "0076a",
@@ -518,7 +923,13 @@
     "file": "027.md"
   },
   {
-    "sequence": 25,
+    "page_text_source": {
+      "0080a": "corrected",
+      "0081a": "corrected",
+      "0082a": "corrected",
+      "0083a": "corrected"
+    },
+    "sequence": 36,
     "front_page": "0080a",
     "pages": [
       "0080a",
@@ -537,7 +948,13 @@
     "file": "028.md"
   },
   {
-    "sequence": 26,
+    "page_text_source": {
+      "0084a": "corrected",
+      "0085a": "corrected",
+      "0086a": "corrected",
+      "0087a": "corrected"
+    },
+    "sequence": 37,
     "front_page": "0084a",
     "pages": [
       "0084a",
@@ -552,11 +969,17 @@
     "month": 1,
     "year": 1982,
     "date": "1982-01-01",
-    "date_confidence": "conflicting",
+    "date_confidence": "month",
     "file": "029.md"
   },
   {
-    "sequence": 27,
+    "page_text_source": {
+      "0088a": "corrected",
+      "0089a": "corrected",
+      "0090a": "corrected",
+      "0091a": "corrected"
+    },
+    "sequence": 38,
     "front_page": "0088a",
     "pages": [
       "0088a",
@@ -570,31 +993,60 @@
     "volume_year": 6,
     "month": 3,
     "year": null,
-    "date": "1982-03-01",
+    "date": "1982-04-01",
     "date_confidence": "interpolated",
     "file": "030.md"
   },
   {
-    "sequence": 28,
+    "page_text_source": {
+      "0092a": "corrected",
+      "0093a": "raw"
+    },
+    "sequence": 39,
     "front_page": "0092a",
     "pages": [
       "0092a",
-      "0093a",
-      "0094a",
-      "0095a"
+      "0093a"
     ],
-    "page_count": 4,
+    "page_count": 2,
     "flagged_pages": [],
     "issue_number": 36,
     "volume_year": 7,
     "month": 7,
     "year": 1983,
     "date": "1983-07-01",
-    "date_confidence": "month",
+    "date_confidence": "conflicting",
     "file": "036.md"
   },
   {
-    "sequence": 29,
+    "page_text_source": {
+      "0094a": "corrected",
+      "0095a": "corrected"
+    },
+    "sequence": 40,
+    "front_page": "0094a",
+    "pages": [
+      "0094a",
+      "0095a"
+    ],
+    "page_count": 2,
+    "flagged_pages": [],
+    "issue_number": null,
+    "volume_year": null,
+    "month": 5,
+    "year": null,
+    "date": null,
+    "date_confidence": "unknown",
+    "file": "seq040.md"
+  },
+  {
+    "page_text_source": {
+      "0096a": "raw",
+      "0097a": "corrected",
+      "0098a": "corrected",
+      "0099a": "corrected"
+    },
+    "sequence": 41,
     "front_page": "0096a",
     "pages": [
       "0096a",
@@ -605,7 +1057,7 @@
     "page_count": 4,
     "flagged_pages": [],
     "issue_number": 43,
-    "volume_year": null,
+    "volume_year": 8,
     "month": 10,
     "year": 1984,
     "date": "1984-10-01",
@@ -613,19 +1065,21 @@
     "file": "043.md"
   },
   {
-    "sequence": 30,
+    "page_text_source": {
+      "0100a": "corrected",
+      "0101a": "corrected",
+      "0102a": "corrected",
+      "0103a": "corrected"
+    },
+    "sequence": 42,
     "front_page": "0100a",
     "pages": [
       "0100a",
       "0101a",
       "0102a",
-      "0103a",
-      "0104a",
-      "0105a",
-      "0106a",
-      "0107a"
+      "0103a"
     ],
-    "page_count": 8,
+    "page_count": 4,
     "flagged_pages": [],
     "issue_number": null,
     "volume_year": 9,
@@ -633,10 +1087,41 @@
     "year": 1986,
     "date": "1986-01-01",
     "date_confidence": "month",
-    "file": "seq030.md"
+    "file": "seq042.md"
   },
   {
-    "sequence": 31,
+    "page_text_source": {
+      "0104a": "corrected",
+      "0105a": "corrected",
+      "0106a": "corrected",
+      "0107a": "corrected"
+    },
+    "sequence": 43,
+    "front_page": "0104a",
+    "pages": [
+      "0104a",
+      "0105a",
+      "0106a",
+      "0107a"
+    ],
+    "page_count": 4,
+    "flagged_pages": [],
+    "issue_number": null,
+    "volume_year": null,
+    "month": 2,
+    "year": 1986,
+    "date": "1986-02-01",
+    "date_confidence": "month",
+    "file": "seq043.md"
+  },
+  {
+    "page_text_source": {
+      "0108a": "corrected",
+      "0109a": "corrected",
+      "0110a": "corrected",
+      "0111a": "corrected"
+    },
+    "sequence": 44,
     "front_page": "0108a",
     "pages": [
       "0108a",
@@ -652,18 +1137,20 @@
     "year": 1978,
     "date": "1978-04-01",
     "date_confidence": "month",
-    "file": "seq031.md"
+    "file": "seq044.md"
   },
   {
-    "sequence": 32,
+    "page_text_source": {
+      "0112a": "corrected",
+      "0113a": "corrected"
+    },
+    "sequence": 45,
     "front_page": "0112a",
     "pages": [
       "0112a",
-      "0113a",
-      "0114a",
-      "0115a"
+      "0113a"
     ],
-    "page_count": 4,
+    "page_count": 2,
     "flagged_pages": [],
     "issue_number": 7,
     "volume_year": 2,
@@ -674,66 +1161,46 @@
     "file": "007.md"
   },
   {
-    "sequence": 33,
-    "front_page": "0116a",
+    "page_text_source": {
+      "0114a": "corrected",
+      "0115a": "corrected",
+      "0116a": "corrected",
+      "0117a": "corrected",
+      "0118a": "corrected",
+      "0119a": "corrected",
+      "0120a": "corrected",
+      "0121a": "corrected",
+      "0122a": "corrected",
+      "0123a": "corrected",
+      "0124a": "corrected",
+      "0125a": "corrected",
+      "0126a": "corrected",
+      "0127a": "corrected",
+      "0128a": "corrected",
+      "0129a": "corrected",
+      "0130a": "corrected",
+      "0131a": "corrected",
+      "0132a": "corrected",
+      "0133a": "corrected",
+      "0134a": "corrected"
+    },
+    "sequence": 46,
+    "front_page": "0114a",
     "pages": [
+      "0114a",
+      "0115a",
       "0116a",
       "0117a",
       "0118a",
-      "0119a"
-    ],
-    "page_count": 4,
-    "flagged_pages": [],
-    "issue_number": 6,
-    "volume_year": null,
-    "month": 12,
-    "year": 1977,
-    "date": "1977-12-01",
-    "date_confidence": "month",
-    "file": "006.md"
-  },
-  {
-    "sequence": 34,
-    "front_page": "0120a",
-    "pages": [
+      "0119a",
       "0120a",
       "0121a",
       "0122a",
-      "0123a"
-    ],
-    "page_count": 4,
-    "flagged_pages": [],
-    "issue_number": 5,
-    "volume_year": null,
-    "month": 10,
-    "year": 1977,
-    "date": "1977-10-01",
-    "date_confidence": "month",
-    "file": "005.md"
-  },
-  {
-    "sequence": 35,
-    "front_page": "0124a",
-    "pages": [
+      "0123a",
       "0124a",
       "0125a",
       "0126a",
-      "0127a"
-    ],
-    "page_count": 4,
-    "flagged_pages": [],
-    "issue_number": 4,
-    "volume_year": null,
-    "month": 8,
-    "year": 1977,
-    "date": "1977-08-01",
-    "date_confidence": "month",
-    "file": "004.md"
-  },
-  {
-    "sequence": 36,
-    "front_page": "0128a",
-    "pages": [
+      "0127a",
       "0128a",
       "0129a",
       "0130a",
@@ -742,75 +1209,67 @@
       "0133a",
       "0134a"
     ],
-    "page_count": 7,
+    "page_count": 21,
     "flagged_pages": [],
-    "issue_number": 3,
+    "issue_number": null,
     "volume_year": null,
     "month": 5,
-    "year": 1977,
-    "date": "1977-05-01",
-    "date_confidence": "month",
-    "file": "003.md"
+    "year": null,
+    "date": null,
+    "date_confidence": "unknown",
+    "file": "seq046.md"
   },
   {
-    "sequence": 37,
+    "page_text_source": {
+      "0135a": "corrected",
+      "0136a": "corrected",
+      "0137a": "corrected",
+      "0138a": "corrected",
+      "0139a": "corrected",
+      "0140a": "corrected",
+      "0141a": "corrected",
+      "0142a": "corrected",
+      "0143a": "corrected",
+      "0144a": "corrected",
+      "0145a": "corrected",
+      "0146a": "corrected"
+    },
+    "sequence": 47,
     "front_page": "0135a",
     "pages": [
       "0135a",
       "0136a",
       "0137a",
-      "0138a"
-    ],
-    "page_count": 4,
-    "flagged_pages": [],
-    "issue_number": 2,
-    "volume_year": null,
-    "month": 2,
-    "year": 1977,
-    "date": "1977-02-01",
-    "date_confidence": "month",
-    "file": "002.md"
-  },
-  {
-    "sequence": 38,
-    "front_page": "0139a",
-    "pages": [
+      "0138a",
       "0139a",
       "0140a",
       "0141a",
-      "0142a"
-    ],
-    "page_count": 4,
-    "flagged_pages": [],
-    "issue_number": 13,
-    "volume_year": 3,
-    "month": 2,
-    "year": 1979,
-    "date": "1979-02-01",
-    "date_confidence": "month",
-    "file": "013.md"
-  },
-  {
-    "sequence": 39,
-    "front_page": "0143a",
-    "pages": [
+      "0142a",
       "0143a",
       "0144a",
       "0145a",
       "0146a"
     ],
-    "page_count": 4,
+    "page_count": 12,
     "flagged_pages": [],
-    "issue_number": 15,
-    "volume_year": 3,
-    "month": 6,
-    "year": 1979,
-    "date": "1979-06-01",
-    "date_confidence": "month",
-    "file": "015.md"
+    "issue_number": 2,
+    "volume_year": 1,
+    "month": 2,
+    "year": 1977,
+    "date": "1977-02-01",
+    "date_confidence": "conflicting",
+    "file": "002.md"
   },
   {
-    "sequence": 40,
+    "page_text_source": {
+      "0147a": "corrected",
+      "0148a": "corrected",
+      "0149a": "corrected",
+      "0150a": "corrected",
+      "0151a": "corrected",
+      "0152a": "corrected"
+    },
+    "sequence": 48,
     "front_page": "0147a",
     "pages": [
       "0147a",
@@ -831,15 +1290,15 @@
     "file": "016.md"
   },
   {
-    "sequence": 41,
+    "page_text_source": {
+      "0153a": "corrected"
+    },
+    "sequence": 49,
     "front_page": "0153a",
     "pages": [
-      "0153a",
-      "0154a",
-      "0155a",
-      "0156a"
+      "0153a"
     ],
-    "page_count": 4,
+    "page_count": 1,
     "flagged_pages": [],
     "issue_number": 17,
     "volume_year": 3,
@@ -850,28 +1309,48 @@
     "file": "017.md"
   },
   {
-    "sequence": 42,
+    "page_text_source": {
+      "0154a": "corrected",
+      "0155a": "corrected",
+      "0156a": "raw"
+    },
+    "sequence": 50,
+    "front_page": "0154a",
+    "pages": [
+      "0154a",
+      "0155a",
+      "0156a"
+    ],
+    "page_count": 3,
+    "flagged_pages": [],
+    "issue_number": null,
+    "volume_year": null,
+    "month": 5,
+    "year": null,
+    "date": null,
+    "date_confidence": "unknown",
+    "file": "seq050.md"
+  },
+  {
+    "page_text_source": {
+      "0157a": "raw",
+      "0158a": "corrected",
+      "0159a": "corrected",
+      "0160a": "corrected",
+      "0161a": "corrected",
+      "0162a": "corrected",
+      "0163a": "raw",
+      "0164a": "corrected",
+      "0165a": "corrected",
+      "0166a": "corrected"
+    },
+    "sequence": 51,
     "front_page": "0157a",
     "pages": [
       "0157a",
       "0158a",
       "0159a",
-      "0160a"
-    ],
-    "page_count": 4,
-    "flagged_pages": [],
-    "issue_number": 18,
-    "volume_year": 3,
-    "month": null,
-    "year": 1979,
-    "date": "1979-12-01",
-    "date_confidence": "interpolated",
-    "file": "018.md"
-  },
-  {
-    "sequence": 43,
-    "front_page": "0161a",
-    "pages": [
+      "0160a",
       "0161a",
       "0162a",
       "0163a",
@@ -879,18 +1358,24 @@
       "0165a",
       "0166a"
     ],
-    "page_count": 6,
+    "page_count": 10,
     "flagged_pages": [],
-    "issue_number": 19,
-    "volume_year": 4,
-    "month": 2,
-    "year": 1980,
-    "date": "1980-02-01",
-    "date_confidence": "month",
-    "file": "019.md"
+    "issue_number": 18,
+    "volume_year": 2,
+    "month": 5,
+    "year": 1978,
+    "date": "1978-05-01",
+    "date_confidence": "conflicting",
+    "file": "018.md"
   },
   {
-    "sequence": 44,
+    "page_text_source": {
+      "0167a": "raw",
+      "0168a": "corrected",
+      "0169a": "corrected",
+      "0170a": "corrected"
+    },
+    "sequence": 52,
     "front_page": "0167a",
     "pages": [
       "0167a",
@@ -909,7 +1394,13 @@
     "file": "020.md"
   },
   {
-    "sequence": 45,
+    "page_text_source": {
+      "0171a": "corrected",
+      "0172a": "corrected",
+      "0173a": "corrected",
+      "0174a": "corrected"
+    },
+    "sequence": 53,
     "front_page": "0171a",
     "pages": [
       "0171a",
@@ -919,16 +1410,22 @@
     ],
     "page_count": 4,
     "flagged_pages": [],
-    "issue_number": 21,
+    "issue_number": 2,
     "volume_year": 4,
     "month": 6,
     "year": 1980,
     "date": "1980-06-01",
-    "date_confidence": "month",
-    "file": "021.md"
+    "date_confidence": "conflicting",
+    "file": "002.md"
   },
   {
-    "sequence": 46,
+    "page_text_source": {
+      "0175a": "corrected",
+      "0176a": "corrected",
+      "0177a": "corrected",
+      "0178a": "raw"
+    },
+    "sequence": 54,
     "front_page": "0175a",
     "pages": [
       "0175a",
@@ -947,7 +1444,10 @@
     "file": "022.md"
   },
   {
-    "sequence": 47,
+    "page_text_source": {
+      "0179a": "corrected"
+    },
+    "sequence": 55,
     "front_page": "0179a",
     "pages": [
       "0179a"

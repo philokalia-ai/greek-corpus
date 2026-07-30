@@ -15,6 +15,7 @@ is written out in full so it can be checked against the scans and corrected.
 from __future__ import annotations
 
 import argparse
+import collections
 import json
 import pathlib
 import re
@@ -110,6 +111,9 @@ def ordered_images(index: dict) -> list[str]:
 def main() -> None:
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument("source_dir", type=pathlib.Path)
+    ap.add_argument("--text", default="prefer-corrected",
+                    choices=["prefer-corrected", "raw"],
+                    help="build from validated corrections where available, or raw OCR only")
     args = ap.parse_args()
 
     src = args.source_dir
@@ -127,14 +131,44 @@ def main() -> None:
         except json.JSONDecodeError:
             continue
 
-    texts = {}
+    # Which transcription each page is built from. Raw OCR is the canonical
+    # record and stays untouched; a corrected page is used only where one was
+    # produced and passed validation, and every page records which it used.
+    corrected_dir = src / "corrected"
+    texts: dict[str, str] = {}
+    text_source: dict[str, str] = {}
     for stem in ordered_images(index):
-        path = ocr_dir / f"{stem}.md"
-        texts[stem] = path.read_text(encoding="utf-8") if path.exists() else ""
+        raw_path = ocr_dir / f"{stem}.md"
+        fixed_path = corrected_dir / f"{stem}.md"
+        if args.text != "raw" and fixed_path.exists():
+            texts[stem] = fixed_path.read_text(encoding="utf-8")
+            text_source[stem] = "corrected"
+        elif raw_path.exists():
+            texts[stem] = raw_path.read_text(encoding="utf-8")
+            text_source[stem] = "raw"
+        else:
+            texts[stem] = ""
+            text_source[stem] = "missing"
+
+    used = collections.Counter(text_source[s] for s in texts if texts[s])
+    print(f"text source: {dict(used)}")
+
+    # Mastheads read from a high-resolution crop are far more reliable than the
+    # same lines inside a whole-page OCR, so prefer them wherever they exist.
+    mastheads = {}
+    masthead_path = src / "pages" / "mastheads.json"
+    if masthead_path.exists():
+        mastheads = json.loads(masthead_path.read_text(encoding="utf-8"))
+
+    def starts_an_issue(stem: str) -> bool:
+        if stem in mastheads:
+            return bool(mastheads[stem]["is_front"])
+        return is_front_page(texts[stem])
 
     sequence = [s for s in ordered_images(index) if s in texts]
-    fronts = [s for s in sequence if is_front_page(texts[s])]
-    print(f"{len(sequence)} page images, {len(fronts)} front pages detected")
+    fronts = [s for s in sequence if starts_an_issue(s)]
+    source = "masthead crops" if mastheads else "page text"
+    print(f"{len(sequence)} page images, {len(fronts)} front pages detected from {source}")
 
     issues = []
     for n, front in enumerate(fronts):
@@ -150,7 +184,15 @@ def main() -> None:
             pages = [p for p in pages if p != sibling] + [sibling]
 
         meta = parse_dateline(texts[front])
+        crop = mastheads.get(front)
+        if crop:
+            # Fill from the crop first; fall back to the page text field by field,
+            # since either reading can miss part of the dateline.
+            for field in ("issue_number", "volume_year", "month", "year"):
+                if crop.get(field) is not None:
+                    meta[field] = crop[field]
         issues.append({
+            "page_text_source": {p: text_source[p] for p in pages},
             "sequence": n + 1,
             "front_page": front,
             "pages": pages,

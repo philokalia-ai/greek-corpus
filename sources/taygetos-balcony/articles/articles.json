@@ -2672,7 +2672,7 @@
     "date": "1982-07-01",
     "date_confidence": "month",
     "page_image": "0010a",
-    "chars": 597,
+    "chars": 581,
     "ocr_flagged": false,
     "text_source": "raw",
     "possible_continuation": false
@@ -2685,9 +2685,9 @@
     "date": "1982-07-01",
     "date_confidence": "month",
     "page_image": "0010b",
-    "chars": 2838,
+    "chars": 2871,
     "ocr_flagged": false,
-    "text_source": "raw",
+    "text_source": "corrected",
     "possible_continuation": false
   },
   {
@@ -2698,9 +2698,9 @@
     "date": "1982-07-01",
     "date_confidence": "month",
     "page_image": "0010b",
-    "chars": 357,
+    "chars": 372,
     "ocr_flagged": false,
-    "text_source": "raw",
+    "text_source": "corrected",
     "possible_continuation": false
   },
   {
@@ -2711,9 +2711,9 @@
     "date": "1982-07-01",
     "date_confidence": "month",
     "page_image": "0010b",
-    "chars": 1444,
+    "chars": 1484,
     "ocr_flagged": false,
-    "text_source": "raw",
+    "text_source": "corrected",
     "possible_continuation": false
   },
   {
@@ -2724,22 +2724,22 @@
     "date": "1982-07-01",
     "date_confidence": "month",
     "page_image": "0010b",
-    "chars": 237,
+    "chars": 271,
     "ocr_flagged": false,
-    "text_source": "raw",
+    "text_source": "corrected",
     "possible_continuation": false
   },
   {
-    "file": "031-26-αν-δεν-ειμουν-αλεξανδρος-θα-ηθελο-να-ειμαι-διογενης.md",
-    "title": "Αν δέν είμουν Αλέξανδρος θα ήθελο να είμαι Διογένης",
+    "file": "031-26-αν-δεν-ημουν-αλεξανδρος-θα-ηθελα-να-ειμαι-διογενης.md",
+    "title": "Αν δεν ήμουν Αλέξανδρος θα ήθελα να είμαι Διογένης",
     "issue": 31,
     "issue_file": "031.md",
     "date": "1982-07-01",
     "date_confidence": "month",
     "page_image": "0010b",
-    "chars": 591,
+    "chars": 555,
     "ocr_flagged": false,
-    "text_source": "raw",
+    "text_source": "corrected",
     "possible_continuation": false
   },
   {
@@ -2750,48 +2750,48 @@
     "date": "1982-07-01",
     "date_confidence": "month",
     "page_image": "0010b",
-    "chars": 756,
+    "chars": 774,
     "ocr_flagged": false,
-    "text_source": "raw",
+    "text_source": "corrected",
     "possible_continuation": false
   },
   {
-    "file": "031-28-γιατι-τοσα-αποταχια.md",
-    "title": "Γιατί τόσα άποταχία;",
+    "file": "031-28-γιατι-τοσα-αποτυχιες.md",
+    "title": "Γιατί τόσα αποτυχίες;",
     "issue": 31,
     "issue_file": "031.md",
     "date": "1982-07-01",
     "date_confidence": "month",
     "page_image": "0010b",
-    "chars": 333,
+    "chars": 340,
     "ocr_flagged": false,
-    "text_source": "raw",
+    "text_source": "corrected",
     "possible_continuation": false
   },
   {
-    "file": "031-29-τσιμεντοστρωθηκε-ο-δρομος-μεχρι-τη-κρυα-βρυση.md",
-    "title": "Τσιμεντοστρώθηκε ό δρόμος μέχρι τη Κρύα Βρύση",
+    "file": "031-29-τσιμεντοστρωθηκε-ο-δρομος-μεχρι-την-κρυα-βρυση.md",
+    "title": "Τσιμεντοστρώθηκε ο δρόμος μέχρι την Κρύα Βρύση",
     "issue": 31,
     "issue_file": "031.md",
     "date": "1982-07-01",
     "date_confidence": "month",
     "page_image": "0010b",
-    "chars": 593,
+    "chars": 612,
     "ocr_flagged": false,
-    "text_source": "raw",
+    "text_source": "corrected",
     "possible_continuation": false
   },
   {
-    "file": "031-30-περιβαλια.md",
-    "title": "ΠΕΡΙΒΑΛΙΑ",
+    "file": "031-30-περιβολια.md",
+    "title": "ΠΕΡΙΒΟΛΙΑ",
     "issue": 31,
     "issue_file": "031.md",
     "date": "1982-07-01",
     "date_confidence": "month",
     "page_image": "0010b",
-    "chars": 252,
+    "chars": 281,
     "ocr_flagged": false,
-    "text_source": "raw",
+    "text_source": "corrected",
     "possible_continuation": false
   },
   {
@@ -2802,22 +2802,22 @@
     "date": "1982-07-01",
     "date_confidence": "month",
     "page_image": "0010b",
-    "chars": 425,
+    "chars": 453,
     "ocr_flagged": false,
-    "text_source": "raw",
+    "text_source": "corrected",
     "possible_continuation": false
   },
   {
-    "file": "031-32-μειδοτολογια.md",
-    "title": "Μειδοτολογία",
+    "file": "031-32-μελλοντολογια.md",
+    "title": "ΜΕΛΛΟΝΤΟΛΟΓΙΑ",
     "issue": 31,
     "issue_file": "031.md",
     "date": "1982-07-01",
     "date_confidence": "month",
     "page_image": "0010b",
-    "chars": 1804,
+    "chars": 1728,
     "ocr_flagged": false,
-    "text_source": "raw",
+    "text_source": "corrected",
     "possible_continuation": false
   },
   {
@@ -10433,7 +10433,7 @@
     "date": "1986-04-01",
     "date_confidence": "month",
     "page_image": "0034b",
-    "chars": 327,
+    "chars": 330,
     "ocr_flagged": false,
     "text_source": "raw",
     "possible_continuation": false
@@ -10446,9 +10446,9 @@
     "date": "1986-04-01",
     "date_confidence": "month",
     "page_image": "0035a",
-    "chars": 1431,
+    "chars": 1456,
     "ocr_flagged": false,
-    "text_source": "raw",
+    "text_source": "corrected",
     "possible_continuation": false
   },
   {
@@ -10461,7 +10461,7 @@
     "page_image": "0035a",
     "chars": 1287,
     "ocr_flagged": false,
-    "text_source": "raw",
+    "text_source": "corrected",
     "possible_continuation": false
   },
   {
@@ -10472,9 +10472,9 @@
     "date": "1986-04-01",
     "date_confidence": "month",
     "page_image": "0035a",
-    "chars": 195,
+    "chars": 197,
     "ocr_flagged": false,
-    "text_source": "raw",
+    "text_source": "corrected",
     "possible_continuation": false
   },
   {
@@ -10485,61 +10485,61 @@
     "date": "1986-04-01",
     "date_confidence": "month",
     "page_image": "0035a",
-    "chars": 629,
+    "chars": 636,
     "ocr_flagged": false,
-    "text_source": "raw",
+    "text_source": "corrected",
     "possible_continuation": false
   },
   {
-    "file": "seq017-33-ο-υποψηφιος-σπαρτης.md",
-    "title": "Ο ΥΠΟΨΗΦΙΟΣ ΣΠΑΡΤΗΣ",
+    "file": "seq017-33-ο-υποψηφιος-δημαρχος-σπαρτης.md",
+    "title": "Ο ΥΠΟΨΗΦΙΟΣ ΔΗΜΑΡΧΟΣ ΣΠΑΡΤΗΣ",
     "issue": null,
     "issue_file": "seq017.md",
     "date": "1986-04-01",
     "date_confidence": "month",
     "page_image": "0035a",
-    "chars": 324,
+    "chars": 322,
     "ocr_flagged": false,
-    "text_source": "raw",
+    "text_source": "corrected",
     "possible_continuation": false
   },
   {
-    "file": "seq017-34-συνδεση-αακονιας-κρητης.md",
-    "title": "ΣΥΝΔΕΣΗ ΑΑΚΟΝΙΑΣ ΚΡΗΤΗΣ",
+    "file": "seq017-34-συνδεση-αιγινας-κρητης.md",
+    "title": "ΣΥΝΔΕΣΗ ΑΙΓΙΝΑΣ - ΚΡΗΤΗΣ",
     "issue": null,
     "issue_file": "seq017.md",
     "date": "1986-04-01",
     "date_confidence": "month",
     "page_image": "0035a",
-    "chars": 420,
+    "chars": 417,
     "ocr_flagged": false,
-    "text_source": "raw",
+    "text_source": "corrected",
     "possible_continuation": false
   },
   {
-    "file": "seq017-35-αρδευτικο-εργο-στον-παρνασεω.md",
-    "title": "ΑΡΔΕΥΤΙΚΟ ΕΡΓΟ ΣΤΟΝ ΠΑΡΝΑΣΕΩ",
+    "file": "seq017-35-αρδευτικο-εργο-στον-παρνασσο.md",
+    "title": "ΑΡΔΕΥΤΙΚΟ ΕΡΓΟ ΣΤΟΝ ΠΑΡΝΑΣΣΟ",
     "issue": null,
     "issue_file": "seq017.md",
     "date": "1986-04-01",
     "date_confidence": "month",
     "page_image": "0035a",
-    "chars": 491,
+    "chars": 493,
     "ocr_flagged": false,
-    "text_source": "raw",
+    "text_source": "corrected",
     "possible_continuation": false
   },
   {
-    "file": "seq017-36-η-αρχαια-μουσικη-σπαρτη.md",
-    "title": "Η ΑΡΧΑΙΑ ΜΟΥΣΙΚΗ ΣΠΑΡΤΗ",
+    "file": "seq017-36-η-αρχαια-μουσικη-στη-σπαρτη.md",
+    "title": "Η ΑΡΧΑΙΑ ΜΟΥΣΙΚΗ ΣΤΗ ΣΠΑΡΤΗ",
     "issue": null,
     "issue_file": "seq017.md",
     "date": "1986-04-01",
     "date_confidence": "month",
     "page_image": "0035a",
-    "chars": 872,
+    "chars": 861,
     "ocr_flagged": false,
-    "text_source": "raw",
+    "text_source": "corrected",
     "possible_continuation": false
   },
   {
@@ -10550,65 +10550,78 @@
     "date": "1986-04-01",
     "date_confidence": "month",
     "page_image": "0035a",
-    "chars": 891,
+    "chars": 589,
     "ocr_flagged": false,
-    "text_source": "raw",
+    "text_source": "corrected",
     "possible_continuation": false
   },
   {
-    "file": "seq017-38-ανακοινωσεις-δινακ-γεωργιας.md",
-    "title": "Ανακοινώσεις Δίνακ Γεωργίας",
+    "file": "seq017-38-προσφορες-στο-γηροκομειο.md",
+    "title": "ΠΡΟΣΦΟΡΕΣ ΣΤΟ ΓΗΡΟΚΟΜΕΙΟ",
     "issue": null,
     "issue_file": "seq017.md",
     "date": "1986-04-01",
     "date_confidence": "month",
     "page_image": "0035a",
-    "chars": 814,
+    "chars": 273,
     "ocr_flagged": false,
-    "text_source": "raw",
+    "text_source": "corrected",
     "possible_continuation": false
   },
   {
-    "file": "seq017-39-τουριστικα-πουλμαν.md",
+    "file": "seq017-39-ανακοινωσεις-διευθυνσης-γεωργιας.md",
+    "title": "Ανακοινώσεις Διεύθυνσης Γεωργίας",
+    "issue": null,
+    "issue_file": "seq017.md",
+    "date": "1986-04-01",
+    "date_confidence": "month",
+    "page_image": "0035a",
+    "chars": 815,
+    "ocr_flagged": false,
+    "text_source": "corrected",
+    "possible_continuation": false
+  },
+  {
+    "file": "seq017-40-τουριστικα-πουλμαν.md",
     "title": "ΤΟΥΡΙΣΤΙΚΑ ΠΟΥΛΜΑΝ",
     "issue": null,
     "issue_file": "seq017.md",
     "date": "1986-04-01",
     "date_confidence": "month",
     "page_image": "0035a",
-    "chars": 134,
+    "chars": 133,
     "ocr_flagged": false,
-    "text_source": "raw",
+    "text_source": "corrected",
     "possible_continuation": false
   },
   {
-    "file": "seq017-40-εκκληση-για-αναστηλωση-αγιου-νικολαου.md",
+    "file": "seq017-41-εκκληση-για-αναστηλωση-αγιου-νικολαου.md",
     "title": "ΕΚΚΛΗΣΗ ΓΙΑ ΑΝΑΣΤΗΛΩΣΗ ΑΓΙΟΥ ΝΙΚΟΛΑΟΥ",
     "issue": null,
     "issue_file": "seq017.md",
     "date": "1986-04-01",
     "date_confidence": "month",
     "page_image": "0035a",
-    "chars": 559,
+    "chars": 558,
     "ocr_flagged": false,
-    "text_source": "raw",
+    "text_source": "corrected",
     "possible_continuation": false
   },
   {
-    "file": "seq017-41-νικος-ηλια-ζητης.md",
-    "title": "ΝΙΚΟΣ ΗΛΙΑ ΖΗΤΗΣ",
+    "file": "seq017-42-νικος-ηλιας-ζητης.md",
+    "title": "ΝΙΚΟΣ ΗΛΙΑΣ ΖΗΤΗΣ",
     "issue": null,
     "issue_file": "seq017.md",
     "date": "1986-04-01",
     "date_confidence": "month",
     "page_image": "0035a",
-    "chars": 285,
+    "chars": 283,
     "ocr_flagged": false,
-    "text_source": "raw",
+    "text_source": "corrected",
     "possible_continuation": false
   },
   {
-    "file": "seq017-42-το-κληροδοτημα-αγοριανης.md",
+    "file": "seq017-43-το-κληροδοτημα-αγοριανης.md",
     "title": "Το Κληροδότημα Αγόριανης",
     "issue": null,
     "issue_file": "seq017.md",
@@ -10621,7 +10634,7 @@
     "possible_continuation": false
   },
   {
-    "file": "seq017-43-τιμηθηκε-ο-γκορτσολαγας.md",
+    "file": "seq017-44-τιμηθηκε-ο-γκορτσολαγας.md",
     "title": "Τιμήθηκε ο Γκορτσολάγας",
     "issue": null,
     "issue_file": "seq017.md",
@@ -10634,7 +10647,7 @@
     "possible_continuation": false
   },
   {
-    "file": "seq017-44-1986-ετος-ειρηνης.md",
+    "file": "seq017-45-1986-ετος-ειρηνης.md",
     "title": "1986: Έτος Ειρήνης",
     "issue": null,
     "issue_file": "seq017.md",
@@ -10647,7 +10660,7 @@
     "possible_continuation": false
   },
   {
-    "file": "seq017-45-αγησιμου-κορζη.md",
+    "file": "seq017-46-αγησιμου-κορζη.md",
     "title": "Αγησίμου Κορζή",
     "issue": null,
     "issue_file": "seq017.md",
@@ -10660,7 +10673,7 @@
     "possible_continuation": false
   },
   {
-    "file": "seq017-46-στην-ολγα-κατσου-πανουση.md",
+    "file": "seq017-47-στην-ολγα-κατσου-πανουση.md",
     "title": "Στην Ολγα Κάτσου - Πάνουση",
     "issue": null,
     "issue_file": "seq017.md",
@@ -10673,7 +10686,7 @@
     "possible_continuation": false
   },
   {
-    "file": "seq017-47-πρωτοπορος-το-τσιγαρο.md",
+    "file": "seq017-48-πρωτοπορος-το-τσιγαρο.md",
     "title": "Πρωτοπόρος το τσιγάρο",
     "issue": null,
     "issue_file": "seq017.md",
@@ -10686,7 +10699,7 @@
     "possible_continuation": false
   },
   {
-    "file": "seq017-48-αγησιλαος-κοριτζης.md",
+    "file": "seq017-49-αγησιλαος-κοριτζης.md",
     "title": "Αγησίλαος Κοριτζής",
     "issue": null,
     "issue_file": "seq017.md",
@@ -10699,7 +10712,7 @@
     "possible_continuation": false
   },
   {
-    "file": "seq017-49-υμνος-στην-αρχαια-σπαρτη.md",
+    "file": "seq017-50-υμνος-στην-αρχαια-σπαρτη.md",
     "title": "Ύμνος στην Αρχαία Σπάρτη",
     "issue": null,
     "issue_file": "seq017.md",
@@ -10712,7 +10725,7 @@
     "possible_continuation": false
   },
   {
-    "file": "seq017-50-δωρεα-στην-κοινοτητα.md",
+    "file": "seq017-51-δωρεα-στην-κοινοτητα.md",
     "title": "Δωρεά στην Κοινότητα",
     "issue": null,
     "issue_file": "seq017.md",
@@ -10725,7 +10738,7 @@
     "possible_continuation": false
   },
   {
-    "file": "seq017-51-γιατι-εχουμε-οψιμο-πασχα.md",
+    "file": "seq017-52-γιατι-εχουμε-οψιμο-πασχα.md",
     "title": "Γιατί έχουμε όψιμο Πάσχα",
     "issue": null,
     "issue_file": "seq017.md",
@@ -10738,7 +10751,7 @@
     "possible_continuation": false
   },
   {
-    "file": "seq017-52-εκκλησεις-για-αναστηλωση-αγιου-νικολαου.md",
+    "file": "seq017-53-εκκλησεις-για-αναστηλωση-αγιου-νικολαου.md",
     "title": "Εκκλήσεις για αναστήλωση Αγίου Νικολάου",
     "issue": null,
     "issue_file": "seq017.md",
@@ -10751,7 +10764,7 @@
     "possible_continuation": false
   },
   {
-    "file": "seq017-53-νεος-διοικητης-κεεμ.md",
+    "file": "seq017-54-νεος-διοικητης-κεεμ.md",
     "title": "Νέος διοικητής ΚΕΕΜ",
     "issue": null,
     "issue_file": "seq017.md",
@@ -10764,7 +10777,7 @@
     "possible_continuation": false
   },
   {
-    "file": "seq017-54-τα-φυτοφαρμακα.md",
+    "file": "seq017-55-τα-φυτοφαρμακα.md",
     "title": "Τα φυτοφάρμακα",
     "issue": null,
     "issue_file": "seq017.md",
@@ -10777,7 +10790,7 @@
     "possible_continuation": false
   },
   {
-    "file": "seq017-55-για-τους-ελαιοπαραγωγους.md",
+    "file": "seq017-56-για-τους-ελαιοπαραγωγους.md",
     "title": "Για τους ελαιοπαραγωγούς",
     "issue": null,
     "issue_file": "seq017.md",
@@ -11395,7 +11408,7 @@
     "date": "1986-07-01",
     "date_confidence": "month",
     "page_image": "0038a",
-    "chars": 3364,
+    "chars": 3367,
     "ocr_flagged": false,
     "text_source": "corrected",
     "possible_continuation": false
@@ -11408,9 +11421,9 @@
     "date": "1986-07-01",
     "date_confidence": "month",
     "page_image": "0035a",
-    "chars": 1431,
+    "chars": 1456,
     "ocr_flagged": false,
-    "text_source": "raw",
+    "text_source": "corrected",
     "possible_continuation": false
   },
   {
@@ -11423,7 +11436,7 @@
     "page_image": "0035a",
     "chars": 1287,
     "ocr_flagged": false,
-    "text_source": "raw",
+    "text_source": "corrected",
     "possible_continuation": false
   },
   {
@@ -11434,9 +11447,9 @@
     "date": "1986-07-01",
     "date_confidence": "month",
     "page_image": "0035a",
-    "chars": 195,
+    "chars": 197,
     "ocr_flagged": false,
-    "text_source": "raw",
+    "text_source": "corrected",
     "possible_continuation": false
   },
   {
@@ -11447,61 +11460,61 @@
     "date": "1986-07-01",
     "date_confidence": "month",
     "page_image": "0035a",
-    "chars": 629,
+    "chars": 636,
     "ocr_flagged": false,
-    "text_source": "raw",
+    "text_source": "corrected",
     "possible_continuation": false
   },
   {
-    "file": "seq018-52-ο-υποψηφιος-σπαρτης.md",
-    "title": "Ο ΥΠΟΨΗΦΙΟΣ ΣΠΑΡΤΗΣ",
+    "file": "seq018-52-ο-υποψηφιος-δημαρχος-σπαρτης.md",
+    "title": "Ο ΥΠΟΨΗΦΙΟΣ ΔΗΜΑΡΧΟΣ ΣΠΑΡΤΗΣ",
     "issue": null,
     "issue_file": "seq018.md",
     "date": "1986-07-01",
     "date_confidence": "month",
     "page_image": "0035a",
-    "chars": 324,
+    "chars": 322,
     "ocr_flagged": false,
-    "text_source": "raw",
+    "text_source": "corrected",
     "possible_continuation": false
   },
   {
-    "file": "seq018-53-συνδεση-αακονιας-κρητης.md",
-    "title": "ΣΥΝΔΕΣΗ ΑΑΚΟΝΙΑΣ ΚΡΗΤΗΣ",
+    "file": "seq018-53-συνδεση-αιγινας-κρητης.md",
+    "title": "ΣΥΝΔΕΣΗ ΑΙΓΙΝΑΣ - ΚΡΗΤΗΣ",
     "issue": null,
     "issue_file": "seq018.md",
     "date": "1986-07-01",
     "date_confidence": "month",
     "page_image": "0035a",
-    "chars": 420,
+    "chars": 417,
     "ocr_flagged": false,
-    "text_source": "raw",
+    "text_source": "corrected",
     "possible_continuation": false
   },
   {
-    "file": "seq018-54-αρδευτικο-εργο-στον-παρνασεω.md",
-    "title": "ΑΡΔΕΥΤΙΚΟ ΕΡΓΟ ΣΤΟΝ ΠΑΡΝΑΣΕΩ",
+    "file": "seq018-54-αρδευτικο-εργο-στον-παρνασσο.md",
+    "title": "ΑΡΔΕΥΤΙΚΟ ΕΡΓΟ ΣΤΟΝ ΠΑΡΝΑΣΣΟ",
     "issue": null,
     "issue_file": "seq018.md",
     "date": "1986-07-01",
     "date_confidence": "month",
     "page_image": "0035a",
-    "chars": 491,
+    "chars": 493,
     "ocr_flagged": false,
-    "text_source": "raw",
+    "text_source": "corrected",
     "possible_continuation": false
   },
   {
-    "file": "seq018-55-η-αρχαια-μουσικη-σπαρτη.md",
-    "title": "Η ΑΡΧΑΙΑ ΜΟΥΣΙΚΗ ΣΠΑΡΤΗ",
+    "file": "seq018-55-η-αρχαια-μουσικη-στη-σπαρτη.md",
+    "title": "Η ΑΡΧΑΙΑ ΜΟΥΣΙΚΗ ΣΤΗ ΣΠΑΡΤΗ",
     "issue": null,
     "issue_file": "seq018.md",
     "date": "1986-07-01",
     "date_confidence": "month",
     "page_image": "0035a",
-    "chars": 872,
+    "chars": 861,
     "ocr_flagged": false,
-    "text_source": "raw",
+    "text_source": "corrected",
     "possible_continuation": false
   },
   {
@@ -11512,61 +11525,74 @@
     "date": "1986-07-01",
     "date_confidence": "month",
     "page_image": "0035a",
-    "chars": 891,
+    "chars": 589,
     "ocr_flagged": false,
-    "text_source": "raw",
+    "text_source": "corrected",
     "possible_continuation": false
   },
   {
-    "file": "seq018-57-ανακοινωσεις-δινακ-γεωργιας.md",
-    "title": "Ανακοινώσεις Δίνακ Γεωργίας",
+    "file": "seq018-57-προσφορες-στο-γηροκομειο.md",
+    "title": "ΠΡΟΣΦΟΡΕΣ ΣΤΟ ΓΗΡΟΚΟΜΕΙΟ",
     "issue": null,
     "issue_file": "seq018.md",
     "date": "1986-07-01",
     "date_confidence": "month",
     "page_image": "0035a",
-    "chars": 814,
+    "chars": 273,
     "ocr_flagged": false,
-    "text_source": "raw",
+    "text_source": "corrected",
     "possible_continuation": false
   },
   {
-    "file": "seq018-58-τουριστικα-πουλμαν.md",
+    "file": "seq018-58-ανακοινωσεις-διευθυνσης-γεωργιας.md",
+    "title": "Ανακοινώσεις Διεύθυνσης Γεωργίας",
+    "issue": null,
+    "issue_file": "seq018.md",
+    "date": "1986-07-01",
+    "date_confidence": "month",
+    "page_image": "0035a",
+    "chars": 815,
+    "ocr_flagged": false,
+    "text_source": "corrected",
+    "possible_continuation": false
+  },
+  {
+    "file": "seq018-59-τουριστικα-πουλμαν.md",
     "title": "ΤΟΥΡΙΣΤΙΚΑ ΠΟΥΛΜΑΝ",
     "issue": null,
     "issue_file": "seq018.md",
     "date": "1986-07-01",
     "date_confidence": "month",
     "page_image": "0035a",
-    "chars": 134,
+    "chars": 133,
     "ocr_flagged": false,
-    "text_source": "raw",
+    "text_source": "corrected",
     "possible_continuation": false
   },
   {
-    "file": "seq018-59-εκκληση-για-αναστηλωση-αγιου-νικολαου.md",
+    "file": "seq018-60-εκκληση-για-αναστηλωση-αγιου-νικολαου.md",
     "title": "ΕΚΚΛΗΣΗ ΓΙΑ ΑΝΑΣΤΗΛΩΣΗ ΑΓΙΟΥ ΝΙΚΟΛΑΟΥ",
     "issue": null,
     "issue_file": "seq018.md",
     "date": "1986-07-01",
     "date_confidence": "month",
     "page_image": "0035a",
-    "chars": 559,
+    "chars": 558,
     "ocr_flagged": false,
-    "text_source": "raw",
+    "text_source": "corrected",
     "possible_continuation": false
   },
   {
-    "file": "seq018-60-νικος-ηλια-ζητης.md",
-    "title": "ΝΙΚΟΣ ΗΛΙΑ ΖΗΤΗΣ",
+    "file": "seq018-61-νικος-ηλιας-ζητης.md",
+    "title": "ΝΙΚΟΣ ΗΛΙΑΣ ΖΗΤΗΣ",
     "issue": null,
     "issue_file": "seq018.md",
     "date": "1986-07-01",
     "date_confidence": "month",
     "page_image": "0035a",
-    "chars": 285,
+    "chars": 283,
     "ocr_flagged": false,
-    "text_source": "raw",
+    "text_source": "corrected",
     "possible_continuation": false
   },
   {
@@ -15932,7 +15958,7 @@
     "date": null,
     "date_confidence": "unknown",
     "page_image": "0052b",
-    "chars": 976,
+    "chars": 979,
     "ocr_flagged": false,
     "text_source": "corrected",
     "possible_continuation": false
@@ -15945,9 +15971,9 @@
     "date": null,
     "date_confidence": "unknown",
     "page_image": "0053a",
-    "chars": 3055,
+    "chars": 3047,
     "ocr_flagged": false,
-    "text_source": "raw",
+    "text_source": "corrected",
     "possible_continuation": false
   },
   {
@@ -15958,39 +15984,65 @@
     "date": null,
     "date_confidence": "unknown",
     "page_image": "0053a",
-    "chars": 900,
+    "chars": 913,
     "ocr_flagged": false,
-    "text_source": "raw",
+    "text_source": "corrected",
     "possible_continuation": false
   },
   {
-    "file": "063-13-μονυμα-του-προεδρου-του-ε-κ.md",
-    "title": "Μόνυμα του Προέδρου του Ε.Κ.",
+    "file": "063-13-μηνυμα-του-προεδρου-του-ε-κ.md",
+    "title": "Μήνυμα του Προέδρου του Ε.Κ.",
     "issue": 63,
     "issue_file": "063.md",
     "date": null,
     "date_confidence": "unknown",
     "page_image": "0053a",
-    "chars": 1624,
+    "chars": 1373,
     "ocr_flagged": false,
-    "text_source": "raw",
+    "text_source": "corrected",
     "possible_continuation": false
   },
   {
-    "file": "063-14-ιστορικο-του-ναου-της-υπαπαντης.md",
+    "file": "063-14-το-ξενοδοχειο-γεωργιτσιου.md",
+    "title": "ΤΟ ΞΕΝΟΔΟΧΕΙΟ ΓΕΩΡΓΙΤΣΙΟΥ",
+    "issue": 63,
+    "issue_file": "063.md",
+    "date": null,
+    "date_confidence": "unknown",
+    "page_image": "0053a",
+    "chars": 227,
+    "ocr_flagged": false,
+    "text_source": "corrected",
+    "possible_continuation": false
+  },
+  {
+    "file": "063-15-ιστορικο-του-ναου-της-υπαπαντης.md",
     "title": "Ιστορικό του Ναού της Υπαπαντής",
     "issue": 63,
     "issue_file": "063.md",
     "date": null,
     "date_confidence": "unknown",
     "page_image": "0053a",
-    "chars": 3441,
+    "chars": 3156,
     "ocr_flagged": false,
-    "text_source": "raw",
+    "text_source": "corrected",
     "possible_continuation": false
   },
   {
-    "file": "063-15-οι-αποδημοι-δημιουργουν.md",
+    "file": "063-16-ακτινοδιαγνωστικο-κεντρο.md",
+    "title": "ΑΚΤΙΝΟΔΙΑΓΝΩΣΤΙΚΟ ΚΕΝΤΡΟ",
+    "issue": 63,
+    "issue_file": "063.md",
+    "date": null,
+    "date_confidence": "unknown",
+    "page_image": "0053a",
+    "chars": 294,
+    "ocr_flagged": false,
+    "text_source": "corrected",
+    "possible_continuation": false
+  },
+  {
+    "file": "063-17-οι-αποδημοι-δημιουργουν.md",
     "title": "Οι Απόδημοι δημιουργούν",
     "issue": 63,
     "issue_file": "063.md",
@@ -16003,7 +16055,7 @@
     "possible_continuation": false
   },
   {
-    "file": "063-16-τα-τοπωνυμια-αγοριανη-στην-ελλαδα.md",
+    "file": "063-18-τα-τοπωνυμια-αγοριανη-στην-ελλαδα.md",
     "title": "Τα Τοπωνύμια Αγόριανη στην Ελλάδα",
     "issue": 63,
     "issue_file": "063.md",
@@ -16016,7 +16068,7 @@
     "possible_continuation": false
   },
   {
-    "file": "063-17-ανακοινωση.md",
+    "file": "063-19-ανακοινωση.md",
     "title": "ΑΝΑΚΟΙΝΩΣΗ",
     "issue": 63,
     "issue_file": "063.md",
@@ -16029,7 +16081,7 @@
     "possible_continuation": false
   },
   {
-    "file": "063-18-ανακοινωσεις-νομαρχιας.md",
+    "file": "063-20-ανακοινωσεις-νομαρχιας.md",
     "title": "Ανακοινώσεις Νομαρχίας",
     "issue": 63,
     "issue_file": "063.md",
@@ -16042,7 +16094,7 @@
     "possible_continuation": false
   },
   {
-    "file": "063-19-δωρεες-στο-αξυλο.md",
+    "file": "063-21-δωρεες-στο-αξυλο.md",
     "title": "ΔΩΡΕΕΣ ΣΤΟ ΑΞΥΛΟ",
     "issue": 63,
     "issue_file": "063.md",
@@ -16055,7 +16107,7 @@
     "possible_continuation": false
   },
   {
-    "file": "063-20-γεωργιτσι.md",
+    "file": "063-22-γεωργιτσι.md",
     "title": "Γεωργιτσι",
     "issue": 63,
     "issue_file": "063.md",
@@ -16068,7 +16120,7 @@
     "possible_continuation": false
   },
   {
-    "file": "063-21-συνδρομες.md",
+    "file": "063-23-συνδρομες.md",
     "title": "ΣΥΝΔΡΟΜΕΣ",
     "issue": 63,
     "issue_file": "063.md",
@@ -16081,7 +16133,7 @@
     "possible_continuation": false
   },
   {
-    "file": "063-22-η-εκδηλευτη-στο-γεωργιτι-ως-ορθο-και-μεγα-1821.md",
+    "file": "063-24-η-εκδηλευτη-στο-γεωργιτι-ως-ορθο-και-μεγα-1821.md",
     "title": "Η ΕΚΔΗΛΕΥΤΗ ΣΤΟ ΓΕΩΡΓΙΤΙ ΩΣ ΟΡΘΟ ΚΑΙ ΜΕΓΑ 1821",
     "issue": 63,
     "issue_file": "063.md",
@@ -16094,7 +16146,7 @@
     "possible_continuation": false
   },
   {
-    "file": "063-23-συλλογος-ο-πυρσοκαυκας.md",
+    "file": "063-25-συλλογος-ο-πυρσοκαυκας.md",
     "title": "Σύλλογος «Ο Πυρσοκαύκας»",
     "issue": 63,
     "issue_file": "063.md",
@@ -16107,7 +16159,7 @@
     "possible_continuation": false
   },
   {
-    "file": "063-24-οι-αποδημοι-δημιουργουν.md",
+    "file": "063-26-οι-αποδημοι-δημιουργουν.md",
     "title": "Οι Απόδημοι δημιουργούν",
     "issue": 63,
     "issue_file": "063.md",
@@ -16120,7 +16172,7 @@
     "possible_continuation": false
   },
   {
-    "file": "063-25-ευχαριστηριο.md",
+    "file": "063-27-ευχαριστηριο.md",
     "title": "ΕΥΧΑΡΙΣΤΗΡΙΟ",
     "issue": 63,
     "issue_file": "063.md",
@@ -16133,7 +16185,7 @@
     "possible_continuation": false
   },
   {
-    "file": "063-26-πελλανα.md",
+    "file": "063-28-πελλανα.md",
     "title": "ΠΕΛΛΑΝΑ",
     "issue": 63,
     "issue_file": "063.md",
@@ -16146,7 +16198,7 @@
     "possible_continuation": false
   },
   {
-    "file": "063-27-η-ολος-κορινθου-τριπολης-ελλαματας.md",
+    "file": "063-29-η-ολος-κορινθου-τριπολης-ελλαματας.md",
     "title": "Η ΟΛΟΣ ΚΟΡΙΝΘΟΥ - ΤΡΙΠΟΛΗΣ - ΕΛΛΑΜΑΤΑΣ",
     "issue": 63,
     "issue_file": "063.md",
@@ -16159,7 +16211,7 @@
     "possible_continuation": false
   },
   {
-    "file": "063-28-μα-τιποτε-δικο-μου.md",
+    "file": "063-30-μα-τιποτε-δικο-μου.md",
     "title": "ΜΑ ΤΙΠΟΤΕ ΔΙΚΟ ΜΟΥ",
     "issue": 63,
     "issue_file": "063.md",
@@ -16172,7 +16224,7 @@
     "possible_continuation": false
   },
   {
-    "file": "063-29-για-διανοιξη-δρομου.md",
+    "file": "063-31-για-διανοιξη-δρομου.md",
     "title": "ΓΙΑ ΔΙΑΝΟΙΞΗ ΔΡΟΜΟΥ",
     "issue": 63,
     "issue_file": "063.md",
@@ -16185,7 +16237,7 @@
     "possible_continuation": false
   },
   {
-    "file": "063-30-νεος-ενταχθεις.md",
+    "file": "063-32-νεος-ενταχθεις.md",
     "title": "ΝΕΟΣ ΕΝΤΑΧΘΕΙΣ",
     "issue": 63,
     "issue_file": "063.md",
@@ -16198,7 +16250,7 @@
     "possible_continuation": false
   },
   {
-    "file": "063-31-συλλογος-πρινοκοκκασης.md",
+    "file": "063-33-συλλογος-πρινοκοκκασης.md",
     "title": "ΣΥΛΛΟΓΟΣ ΠΡΙΝΟΚΟΚΚΑΣΗΣ",
     "issue": 63,
     "issue_file": "063.md",
@@ -16211,7 +16263,7 @@
     "possible_continuation": false
   },
   {
-    "file": "063-32-η-κτηματικη-τραπεζα-λειτουργει.md",
+    "file": "063-34-η-κτηματικη-τραπεζα-λειτουργει.md",
     "title": "Η ΚΤΗΜΑΤΙΚΗ ΤΡΑΠΕΖΑ ΛΕΙΤΟΥΡΓΕΙ",
     "issue": 63,
     "issue_file": "063.md",
@@ -16224,7 +16276,7 @@
     "possible_continuation": false
   },
   {
-    "file": "063-33-η-καθαριοτητα-ειναι-μιση-αρχοντια.md",
+    "file": "063-35-η-καθαριοτητα-ειναι-μιση-αρχοντια.md",
     "title": "Η ΚΑΘΑΡΙΟΤΗΤΑ ΕΙΝΑΙ ΜΙΣΗ ΑΡΧΟΝΤΙΑ",
     "issue": 63,
     "issue_file": "063.md",
@@ -16237,7 +16289,7 @@
     "possible_continuation": false
   },
   {
-    "file": "063-34-παγκοσμιο-συνεδριο-στη-λαρισσα.md",
+    "file": "063-36-παγκοσμιο-συνεδριο-στη-λαρισσα.md",
     "title": "ΠΑΓΚΟΣΜΙΟ ΣΥΝΕΔΡΙΟ ΣΤΗ ΛΑΡΙΣΣΑ",
     "issue": 63,
     "issue_file": "063.md",
@@ -16250,7 +16302,7 @@
     "possible_continuation": false
   },
   {
-    "file": "063-35-δωρητες.md",
+    "file": "063-37-δωρητες.md",
     "title": "ΔΩΡΗΤΕΣ",
     "issue": 63,
     "issue_file": "063.md",
@@ -16263,7 +16315,7 @@
     "possible_continuation": false
   },
   {
-    "file": "063-36-δαχνοι-που-κερδισαν.md",
+    "file": "063-38-δαχνοι-που-κερδισαν.md",
     "title": "ΔΑΧΝΟΙ ΠΟΥ ΚΕΡΔΙΣΑΝ",
     "issue": 63,
     "issue_file": "063.md",
@@ -16276,7 +16328,7 @@
     "possible_continuation": false
   },
   {
-    "file": "063-37-νομαρχιακο-προγραμμα.md",
+    "file": "063-39-νομαρχιακο-προγραμμα.md",
     "title": "Νομαρχιακό πρόγραμμα",
     "issue": 63,
     "issue_file": "063.md",
@@ -16289,7 +16341,7 @@
     "possible_continuation": false
   },
   {
-    "file": "063-38-επασια-προαγωγη.md",
+    "file": "063-40-επασια-προαγωγη.md",
     "title": "ΕΠΑΣΙΑ ΠΡΟΑΓΩΓΗ",
     "issue": 63,
     "issue_file": "063.md",
@@ -16302,7 +16354,7 @@
     "possible_continuation": false
   },
   {
-    "file": "063-39-του-συλλογου-των-εν-αττικη-γεωργιτσιανων.md",
+    "file": "063-41-του-συλλογου-των-εν-αττικη-γεωργιτσιανων.md",
     "title": "ΤΟΥ ΣΥΛΛΟΓΟΥ ΤΩΝ ΕΝ ΑΤΤΙΚΗ ΓΕΩΡΓΙΤΣΙΑΝΩΝ",
     "issue": 63,
     "issue_file": "063.md",
@@ -16315,7 +16367,7 @@
     "possible_continuation": false
   },
   {
-    "file": "063-40-δωρεες-για-το-ηρωο.md",
+    "file": "063-42-δωρεες-για-το-ηρωο.md",
     "title": "ΔΩΡΕΕΣ ΓΙΑ ΤΟ ΗΡΩΟ",
     "issue": 63,
     "issue_file": "063.md",
@@ -16328,7 +16380,7 @@
     "possible_continuation": false
   },
   {
-    "file": "063-41-το-πασχα-στο-χωριο-μας.md",
+    "file": "063-43-το-πασχα-στο-χωριο-μας.md",
     "title": "Το Πάσχα στο χωριό μας",
     "issue": 63,
     "issue_file": "063.md",
@@ -16341,7 +16393,7 @@
     "possible_continuation": false
   },
   {
-    "file": "063-42-συμασια-κορφιδας-περοβιατων-αλκονιας.md",
+    "file": "063-44-συμασια-κορφιδας-περοβιατων-αλκονιας.md",
     "title": "ΣΥΜΑΣΙΑ ΚΟΡΦΙΔΑΣ ΠΕΡΟΒΙΑΤΩΝ ΑΛΚΟΝΙΑΣ",
     "issue": 63,
     "issue_file": "063.md",
@@ -16354,7 +16406,7 @@
     "possible_continuation": false
   },
   {
-    "file": "063-43-εκκληση.md",
+    "file": "063-45-εκκληση.md",
     "title": "ΕΚΚΛΗΣΗ",
     "issue": 63,
     "issue_file": "063.md",
@@ -16367,7 +16419,7 @@
     "possible_continuation": false
   },
   {
-    "file": "063-44-πωλειται.md",
+    "file": "063-46-πωλειται.md",
     "title": "ΠΩΛΕΙΤΑΙ",
     "issue": 63,
     "issue_file": "063.md",
@@ -16380,7 +16432,7 @@
     "possible_continuation": false
   },
   {
-    "file": "063-45-ευχες-του-σεβασμιωτατου-μητροπολιτου-μας.md",
+    "file": "063-47-ευχες-του-σεβασμιωτατου-μητροπολιτου-μας.md",
     "title": "ΕΥΧΕΣ ΤΟΥ ΣΕΒΑΣΜΙΩΤΑΤΟΥ ΜΗΤΡΟΠΟΛΙΤΟΥ ΜΑΣ",
     "issue": 63,
     "issue_file": "063.md",
@@ -16393,7 +16445,7 @@
     "possible_continuation": false
   },
   {
-    "file": "063-46-ευχες-του-νομαρχη-αλκονιας-α-νιζαμη.md",
+    "file": "063-48-ευχες-του-νομαρχη-αλκονιας-α-νιζαμη.md",
     "title": "ΕΥΧΕΣ ΤΟΥ ΝΟΜΑΡΧΗ ΑΛΚΟΝΙΑΣ Α. ΝΙΖΑΜΗ",
     "issue": 63,
     "issue_file": "063.md",

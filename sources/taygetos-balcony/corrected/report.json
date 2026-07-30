@@ -402,8 +402,8 @@
       "400"
     ],
     "model": "mistral-small-latest",
-    "number_retention": 0.949,
-    "numbers_total": 59,
+    "number_retention": 0.923,
+    "numbers_total": 52,
     "page": "0010a",
     "status": "rejected",
     "usage": {
@@ -416,11 +416,12 @@
     }
   },
   "0010b": {
+    "accepted_by": "revalidation",
     "checks": {
       "greek_not_worse": true,
       "length_ok": true,
       "not_empty": true,
-      "numbers_kept": false
+      "numbers_kept": true
     },
     "greek_after": 1.0,
     "greek_before": 1.0,
@@ -431,10 +432,10 @@
       "82"
     ],
     "model": "mistral-small-latest",
-    "number_retention": 0.936,
-    "numbers_total": 47,
+    "number_retention": 0.977,
+    "numbers_total": 43,
     "page": "0010b",
-    "status": "rejected",
+    "status": "accepted",
     "usage": {
       "completion_tokens": 4548,
       "prompt_tokens": 5071,
@@ -459,8 +460,8 @@
       "748606"
     ],
     "model": "mistral-small-latest",
-    "number_retention": 0.913,
-    "numbers_total": 23,
+    "number_retention": 0.882,
+    "numbers_total": 17,
     "page": "0011a",
     "status": "rejected",
     "usage": {
@@ -499,8 +500,8 @@
       "93"
     ],
     "model": "mistral-small-latest",
-    "number_retention": 0.725,
-    "numbers_total": 51,
+    "number_retention": 0.674,
+    "numbers_total": 43,
     "page": "0011b",
     "status": "rejected",
     "usage": {
@@ -997,8 +998,8 @@
       "84"
     ],
     "model": "mistral-small-latest",
-    "number_retention": 0.625,
-    "numbers_total": 16,
+    "number_retention": 0.667,
+    "numbers_total": 15,
     "page": "0021b",
     "status": "rejected",
     "usage": {
@@ -1363,8 +1364,8 @@
       "748606"
     ],
     "model": "mistral-small-latest",
-    "number_retention": 0.938,
-    "numbers_total": 64,
+    "number_retention": 0.895,
+    "numbers_total": 57,
     "page": "0029a",
     "status": "rejected",
     "usage": {
@@ -1584,8 +1585,8 @@
       "452"
     ],
     "model": "mistral-small-latest",
-    "number_retention": 0.875,
-    "numbers_total": 24,
+    "number_retention": 0.87,
+    "numbers_total": 23,
     "page": "0033b",
     "status": "rejected",
     "usage": {
@@ -1638,8 +1639,8 @@
       "5000"
     ],
     "model": "mistral-small-latest",
-    "number_retention": 0.932,
-    "numbers_total": 59,
+    "number_retention": 0.907,
+    "numbers_total": 43,
     "page": "0034b",
     "status": "rejected",
     "usage": {
@@ -1652,11 +1653,12 @@
     }
   },
   "0035a": {
+    "accepted_by": "revalidation",
     "checks": {
       "greek_not_worse": true,
       "length_ok": true,
       "not_empty": true,
-      "numbers_kept": false
+      "numbers_kept": true
     },
     "greek_after": 0.987,
     "greek_before": 0.987,
@@ -1667,10 +1669,10 @@
       "56"
     ],
     "model": "mistral-small-latest",
-    "number_retention": 0.941,
-    "numbers_total": 51,
+    "number_retention": 0.952,
+    "numbers_total": 42,
     "page": "0035a",
-    "status": "rejected",
+    "status": "accepted",
     "usage": {
       "completion_tokens": 4454,
       "prompt_tokens": 4971,
@@ -1829,8 +1831,8 @@
       "000"
     ],
     "model": "mistral-small-latest",
-    "number_retention": 0.367,
-    "numbers_total": 215,
+    "number_retention": 0.452,
+    "numbers_total": 124,
     "page": "0037b",
     "status": "rejected",
     "usage": {
@@ -1957,8 +1959,8 @@
       "12"
     ],
     "model": "mistral-small-latest",
-    "number_retention": 0.895,
-    "numbers_total": 57,
+    "number_retention": 0.889,
+    "numbers_total": 54,
     "page": "0040a",
     "status": "rejected",
     "usage": {
@@ -1987,8 +1989,8 @@
       "400"
     ],
     "model": "mistral-small-latest",
-    "number_retention": 0.947,
-    "numbers_total": 76,
+    "number_retention": 0.942,
+    "numbers_total": 69,
     "page": "0040b",
     "status": "rejected",
     "usage": {
@@ -2017,7 +2019,7 @@
       "8166"
     ],
     "model": "mistral-small-latest",
-    "number_retention": 0.852,
+    "number_retention": 0.889,
     "numbers_total": 27,
     "page": "0041a",
     "status": "rejected",
@@ -2311,8 +2313,8 @@
       "88"
     ],
     "model": "mistral-small-latest",
-    "number_retention": 0.897,
-    "numbers_total": 39,
+    "number_retention": 0.857,
+    "numbers_total": 28,
     "page": "0047a",
     "status": "rejected",
     "usage": {
@@ -2388,8 +2390,8 @@
       "300"
     ],
     "model": "mistral-small-latest",
-    "number_retention": 0.912,
-    "numbers_total": 34,
+    "number_retention": 0.897,
+    "numbers_total": 29,
     "page": "0048b",
     "status": "rejected",
     "usage": {
@@ -2466,8 +2468,8 @@
       "16"
     ],
     "model": "mistral-small-latest",
-    "number_retention": 0.917,
-    "numbers_total": 48,
+    "number_retention": 0.93,
+    "numbers_total": 43,
     "page": "0050a",
     "status": "rejected",
     "usage": {
@@ -2542,8 +2544,8 @@
       "748606"
     ],
     "model": "mistral-small-latest",
-    "number_retention": 0.943,
-    "numbers_total": 35,
+    "number_retention": 0.938,
+    "numbers_total": 32,
     "page": "0051b",
     "status": "rejected",
     "usage": {
@@ -2604,11 +2606,12 @@
     }
   },
   "0053a": {
+    "accepted_by": "revalidation",
     "checks": {
       "greek_not_worse": true,
       "length_ok": true,
       "not_empty": true,
-      "numbers_kept": false
+      "numbers_kept": true
     },
     "greek_after": 0.996,
     "greek_before": 0.995,
@@ -2620,10 +2623,10 @@
       "5000"
     ],
     "model": "mistral-small-latest",
-    "number_retention": 0.942,
-    "numbers_total": 69,
+    "number_retention": 0.967,
+    "numbers_total": 61,
     "page": "0053a",
-    "status": "rejected",
+    "status": "accepted",
     "usage": {
       "completion_tokens": 4204,
       "prompt_tokens": 4757,
@@ -2821,8 +2824,8 @@
       "50"
     ],
     "model": "mistral-small-latest",
-    "number_retention": 0.868,
-    "numbers_total": 53,
+    "number_retention": 0.9,
+    "numbers_total": 50,
     "page": "0057a",
     "status": "rejected",
     "usage": {
@@ -2954,8 +2957,8 @@
       "9717224"
     ],
     "model": "mistral-small-latest",
-    "number_retention": 0.851,
-    "numbers_total": 74,
+    "number_retention": 0.873,
+    "numbers_total": 63,
     "page": "0059b",
     "status": "rejected",
     "usage": {
@@ -3851,8 +3854,8 @@
       "33"
     ],
     "model": "mistral-small-latest",
-    "number_retention": 0.917,
-    "numbers_total": 24,
+    "number_retention": 0.9,
+    "numbers_total": 20,
     "page": "0096a",
     "status": "rejected",
     "usage": {
@@ -5297,8 +5300,8 @@
       "50"
     ],
     "model": "mistral-small-latest",
-    "number_retention": 0.929,
-    "numbers_total": 56,
+    "number_retention": 0.917,
+    "numbers_total": 48,
     "page": "0156a",
     "status": "rejected",
     "usage": {
@@ -5328,8 +5331,8 @@
       "676"
     ],
     "model": "mistral-small-latest",
-    "number_retention": 0.909,
-    "numbers_total": 55,
+    "number_retention": 0.897,
+    "numbers_total": 39,
     "page": "0157a",
     "status": "rejected",
     "usage": {
@@ -5480,8 +5483,8 @@
       "922"
     ],
     "model": "mistral-small-latest",
-    "number_retention": 0.906,
-    "numbers_total": 64,
+    "number_retention": 0.897,
+    "numbers_total": 58,
     "page": "0163a",
     "status": "rejected",
     "usage": {
@@ -5850,8 +5853,8 @@
       "80"
     ],
     "model": "mistral-small-latest",
-    "number_retention": 0.907,
-    "numbers_total": 54,
+    "number_retention": 0.867,
+    "numbers_total": 45,
     "page": "0178a",
     "status": "rejected",
     "usage": {

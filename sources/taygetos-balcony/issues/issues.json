@@ -107,7 +107,7 @@
     "page_text_source": {
       "0009b": "corrected",
       "0010a": "raw",
-      "0010b": "raw",
+      "0010b": "corrected",
       "0011a": "raw",
       "0009a": "corrected"
     },
@@ -434,7 +434,7 @@
       "0033b": "raw",
       "0034a": "corrected",
       "0034b": "raw",
-      "0035a": "raw",
+      "0035a": "corrected",
       "0033a": "corrected"
     },
     "sequence": 17,
@@ -464,7 +464,7 @@
       "0037a": "corrected",
       "0037b": "raw",
       "0038a": "corrected",
-      "0035a": "raw"
+      "0035a": "corrected"
     },
     "sequence": 18,
     "front_page": "0035b",
@@ -660,7 +660,7 @@
   {
     "page_text_source": {
       "0052b": "corrected",
-      "0053a": "raw",
+      "0053a": "corrected",
       "0053b": "corrected",
       "0054a": "corrected",
       "0052a": "corrected"

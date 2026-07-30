@@ -107,9 +107,19 @@ def greek_ratio(text: str) -> float:
     return sum(1 for c in letters if "GREEK" in unicodedata.name(c, "")) / len(letters)
 
 
+INNER_SEPARATOR = re.compile(r"(?<=\d)[.,](?=\d)")
+
+
 def significant_numbers(text: str) -> collections.Counter:
-    """Multi-digit runs only; stray single digits are usually OCR noise."""
-    return collections.Counter(re.findall(r"\d{2,}", text))
+    """Multi-digit runs, insensitive to how thousands are punctuated.
+
+    Greek separates thousands with a full stop, so "3.000" holds no run of two
+    or more digits except "000". A model that rewrites it as "3000" changes
+    every token without losing a digit. Stripping separators inside a number on
+    both sides keeps the comparison about digits rather than typography. Stray
+    single digits stay excluded; they are usually OCR noise.
+    """
+    return collections.Counter(re.findall(r"\d{2,}", INNER_SEPARATOR.sub("", text)))
 
 
 def validate(raw: str, fixed: str) -> tuple[bool, dict]:
@@ -208,6 +218,9 @@ def main() -> None:
                     help="correct only pages the OCR quality gate flagged")
     ap.add_argument("--retry-rejected", action="store_true",
                     help="re-run only the pages whose previous correction was rejected")
+    ap.add_argument("--revalidate", action="store_true",
+                    help="re-score quarantined attempts against the current gate, "
+                         "promoting any that now pass, without calling the model again")
     ap.add_argument("--force", action="store_true")
     args = ap.parse_args()
 
@@ -232,6 +245,33 @@ def main() -> None:
     report = {}
     if report_path.exists() and not args.force:
         report = json.loads(report_path.read_text(encoding="utf-8"))
+    if args.revalidate:
+        quarantine = out_dir / "rejected"
+        promoted = 0
+        for stem, record in sorted(report.items()):
+            if record.get("status") != "rejected":
+                continue
+            attempt = quarantine / f"{stem}.md"
+            if not attempt.exists():
+                continue
+            prepared = dehyphenate((ocr_dir / f"{stem}.md").read_text(encoding="utf-8"))
+            fixed = attempt.read_text(encoding="utf-8")
+            ok, metrics = validate(prepared, fixed)
+            record.update(metrics)
+            if ok:
+                (out_dir / f"{stem}.md").write_text(fixed, encoding="utf-8")
+                attempt.unlink()
+                record["status"] = "accepted"
+                record["accepted_by"] = "revalidation"
+                promoted += 1
+                log(f"promoted {stem}  numbers {metrics['number_retention']}")
+        report_path.write_text(
+            json.dumps(report, ensure_ascii=False, indent=2, sort_keys=True), encoding="utf-8"
+        )
+        still = sum(1 for v in report.values() if v.get("status") == "rejected")
+        log(f"\npromoted {promoted}, still rejected {still}")
+        return
+
     if args.retry_rejected:
         retry = {k for k, v in report.items() if v.get("status") == "rejected"}
         todo = [p for p in pages if p.stem in retry]

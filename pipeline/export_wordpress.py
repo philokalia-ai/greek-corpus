@@ -14,12 +14,33 @@ a separate step: pipeline/publish_wordpress.py.
 from __future__ import annotations
 
 import argparse
+import collections
 import json
 import pathlib
 import re
 import unicodedata
 
 FRONTMATTER = re.compile(r"\A---\n(.*?)\n---\n", re.DOTALL)
+
+# The nameplate at the top of every front page reads as a headline, so each
+# issue contributes one "article" that is just the paper's own name. Anchored on
+# both ends, so a real headline that merely contains the village name is kept.
+MASTHEAD_TITLE = re.compile(
+    r"\A[^Α-Ωα-ω]*(?:ΤΟ\s+)?(?:ΓΕΩΡΓΙΤΣΙ|ΜΠΑΛΚΟΝΙ\s+ΤΟΥ\s+ΤΑ[ΫΥ]ΓΕΤΟΥ)[^Α-Ωα-ω]*\Z"
+)
+
+# Issue dates are only accurate to the month, so every article in an issue would
+# otherwise carry an identical timestamp and WordPress would order them
+# arbitrarily -- discarding the reading order recovered from the folded sheets.
+# Spacing them preserves that order within the correct month.
+FIRST_POST_HOUR = 8
+MINUTES_BETWEEN_POSTS = 2
+LAST_MINUTE_OF_DAY = 23 * 60 + 58
+
+
+def post_time(index: int) -> str:
+    minute = min(FIRST_POST_HOUR * 60 + index * MINUTES_BETWEEN_POSTS, LAST_MINUTE_OF_DAY)
+    return f"{minute // 60:02d}:{minute % 60:02d}:00"
 
 
 def parse_frontmatter(text: str) -> tuple[dict, str]:
@@ -117,12 +138,20 @@ def main() -> None:
     licence = manifest["license"]
     posts = []
 
+    per_issue: collections.Counter = collections.Counter()
+    skipped_mastheads = 0
+
     for entry in catalogue:
+        if MASTHEAD_TITLE.match(entry["title"].strip()):
+            skipped_mastheads += 1
+            continue
         text = (articles_dir / entry["file"]).read_text(encoding="utf-8")
         meta, body = parse_frontmatter(text)
         html = to_html(body)
         if not html.strip():
             continue
+        sequence = per_issue[entry["issue_file"]]
+        per_issue[entry["issue_file"]] += 1
 
         issue_ref = f" — τεύχος {entry['issue']}" if entry.get("issue") else ""
         credit = (
@@ -136,7 +165,7 @@ def main() -> None:
             "title": entry["title"],
             "content": html + "\n\n" + credit,
             "excerpt": excerpt(body),
-            "date": f"{entry['date']}T09:00:00" if entry.get("date") else None,
+            "date": f"{entry['date']}T{post_time(sequence)}" if entry.get("date") else None,
             "status": args.status,
             "category": args.category,
             "meta": {
@@ -162,6 +191,7 @@ def main() -> None:
     undated = sum(1 for p in posts if p["_flags"]["undated"])
     dates = sorted(p["date"][:10] for p in posts if p["date"])
     print(f"{len(posts)} posts written to {out_dir / 'posts.json'}")
+    print(f"  mastheads skipped: {skipped_mastheads}")
     print(f"  status:       {args.status}")
     if dates:
         print(f"  date range:   {dates[0]} .. {dates[-1]}")
